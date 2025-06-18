@@ -1,0 +1,181 @@
+import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Link, useLocation } from 'react-router-dom';
+import { Plus, Minus } from 'lucide-react';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+
+const About = () => {
+  const [activeAccordion, setActiveAccordion] = useState<string | null>(null);
+
+  const missionItems = [
+    {
+      title: 'Overview',
+      content: 'We strive to provide the highest quality pest control services while ensuring customer satisfaction and environmental responsibility.'
+    },
+    {
+      title: 'Quality Service',
+      content: 'Our team of certified professionals uses the latest techniques and environmentally friendly solutions.'
+    },
+    {
+      title: 'Responsive',
+      content: '24/7 emergency service available to handle any pest control situation promptly and efficiently.'
+    }
+  ];
+
+  const metrics = [
+    { label: 'Service Satisfaction', value: 97 },
+    { label: 'Service Effectiveness', value: 98 },
+    { label: 'Quality Work', value: 98 }
+  ];
+
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Navbar />
+      
+      {/* Header with Navigation */}
+      <motion.header
+        className="relative w-full h-48"
+        initial={{ opacity: 0, scale: 1.05 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1, ease: 'easeOut' }}
+      >
+        <motion.img
+          src="/images/slider/clean.png"
+          alt="About Us Banner"
+          className="absolute inset-0 w-full h-full object-cover"
+          initial={{ scale: 1.1 }}
+          animate={{ scale: 1 }}
+          transition={{ duration: 1.2, ease: 'easeOut' }}
+        />
+        <div className="absolute inset-0 bg-black bg-opacity-50" />
+        <div className="relative z-10 flex items-end w-full h-full pb-6 px-6">
+          <motion.nav
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5, duration: 0.6, ease: 'easeOut' }}
+            className="text-white text-lg"
+          >
+            <Link to="/" className="hover:text-primary transition-colors">Home</Link>
+            <span className="mx-2">&gt;</span>
+            <span>About Us</span>
+          </motion.nav>
+        </div>
+      </motion.header>
+
+      {/* Main Content */}
+      <div className="flex-grow py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* About Description */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="mb-16"
+          >
+            <h1 className="text-4xl font-bold text-gray-900 mb-6">About PestClinic</h1>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              At PestClinic, we are committed to providing innovative and effective pest control solutions
+              while maintaining the highest standards of safety and environmental responsibility. With years
+              of experience and a team of certified professionals, we ensure your peace of mind through
+              comprehensive pest management services.
+            </p>
+          </motion.div>
+
+          {/* Three Columns Section */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+            {/* Our Mission */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="space-y-4"
+            >
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Our Mission</h2>
+              {missionItems.map((item, index) => (
+                <div key={index} className="border border-gray-200 rounded-lg">
+                  <button
+                    className="w-full px-4 py-3 flex items-center justify-between text-left"
+                    onClick={() => setActiveAccordion(activeAccordion === item.title ? null : item.title)}
+                  >
+                    <span className="font-medium">{item.title}</span>
+                    {activeAccordion === item.title ? (
+                      <Minus className="h-5 w-5 text-primary" />
+                    ) : (
+                      <Plus className="h-5 w-5 text-gray-400" />
+                    )}
+                  </button>
+                  <AnimatePresence>
+                    {activeAccordion === item.title && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: 'auto', opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="px-4 pb-3"
+                      >
+                        <p className="text-gray-600">{item.content}</p>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              ))}
+            </motion.div>
+
+            {/* Our Philosophy */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+            >
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Our Philosophy</h2>
+              <p className="text-gray-700 leading-relaxed">
+                At PestClinic, providing solutions that last is ingrained in all of us. 
+                Pest control does not stop at eliminating current threats; we deal with 
+                the root cause to ensure the unwanted guests do not return. At PestClinic, 
+                No Pest; No Stress.
+              </p>
+            </motion.div>
+
+            {/* Company Overview */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+            >
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Company Overview</h2>
+              <div className="space-y-6">
+                {metrics.map((metric, index) => (
+                  <div key={index} className="space-y-2">
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">{metric.label}</span>
+                      <span className="text-primary font-medium">{metric.value}%</span>
+                    </div>
+                    <motion.div
+                      className="h-2 bg-gray-200 rounded-full"
+                      initial={{ width: 0 }}
+                      whileInView={{ width: '100%' }}
+                      viewport={{ once: true }}
+                    >
+                      <motion.div
+                        className="h-full bg-primary rounded-full"
+                        initial={{ width: 0 }}
+                        whileInView={{ width: `${metric.value}%` }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 1, delay: 0.5 }}
+                      />
+                    </motion.div>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </div>
+
+      <Footer />
+    </div>
+  );
+};
+
+export default About;

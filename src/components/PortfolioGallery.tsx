@@ -13,37 +13,37 @@ const PortfolioGallery = () => {
     {
       id: 1,
       title: "Termite Treatment - Residential",
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=500&h=400&fit=crop",
+      image: "/images/works/wo1.png",
       description: "Complete termite elimination in a 3-story residential building"
     },
     {
       id: 2,
       title: "Commercial Kitchen Pest Control",
-      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500&h=400&fit=crop",
+      image: "/images/works/wo2.png",
       description: "Professional pest management for restaurant kitchen"
     },
     {
       id: 3,
       title: "Office Building Rodent Control",
-      image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=500&h=400&fit=crop",
+      image: "/images/works/wo3.png",
       description: "Comprehensive rodent elimination in corporate office"
     },
     {
       id: 4,
       title: "Warehouse Fumigation",
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=500&h=400&fit=crop",
+      image: "/images/works/wo4.png",
       description: "Industrial-grade fumigation for large warehouse facility"
     },
     {
       id: 5,
       title: "Hotel Bed Bug Treatment",
-      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500&h=400&fit=crop",
+      image: "/images/works/wo5.png",
       description: "Complete bed bug elimination in luxury hotel"
     },
     {
       id: 6,
       title: "School Premises Sanitization",
-      image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=500&h=400&fit=crop",
+      image: "/images/works/wo6.png",
       description: "Safe pest control and sanitization for educational facility"
     }
   ];
@@ -59,7 +59,7 @@ const PortfolioGallery = () => {
         >
           <h3 className="text-primary font-semibold text-lg mb-2">Our Work</h3>
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Recent Projects & Success Stories
+            Comprehensive Pest Control in Singapore for Every Industry
           </h2>
           <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
             See our professional pest control work in action. From residential homes 

@@ -8,44 +8,44 @@ const ServicesGrid = () => {
 
   const services = [
     {
-      title: "Termite Control",
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=300&fit=crop",
-      description: "Complete termite elimination and prevention"
+      title: "Ants Control",
+      image: "/images/controls/ants.png",
+      description: "Even in a clean home, ants can infest and quickly expand. Act swiftly at the first signs to contain them and prevent further spread.	"
     },
     {
-      title: "Rodent Control",
-      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=300&fit=crop",
-      description: "Safe and effective rodent removal services"
+      title: "Bed Bugs Control",
+      image: "/images/controls/bedbugs.jpg",
+      description: "Bed bugs cause irritation and discomfort. PestClinic offers effective bed bug control services to eliminate infestations."
     },
     {
       title: "Cockroach Control",
-      image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop",
-      description: "Professional cockroach extermination"
+      image: "/images/controls/cockroach.jpeg",
+      description: "Act quickly at the first sign of cockroaches to control and limit their spread"
     },
     {
-      title: "Ant Control",
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=300&fit=crop",
-      description: "Comprehensive ant colony elimination"
+      title: "Flies Control",
+      image: "/images/controls/flies.jpeg",
+      description: "The housefly is the most common type found in homes. Due to their high reproduction rate, prompt pest control is essential"
     },
     {
-      title: "Bed Bug Treatment",
-      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=300&fit=crop",
-      description: "Advanced bed bug detection and removal"
+      title: "Mosquitoes Treatment",
+      image: "/images/controls/mosquitoes.jpeg",
+      description: "Mosquito-borne diseases are a risk. Protect yourself by removing breeding grounds"
     },
     {
-      title: "Mosquito Control",
-      image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop",
-      description: "Mosquito breeding site elimination"
+      title: "Rodents Control",
+      image: "/images/controls/rodent.jpg",
+      description: "Rats cause severe damage to household items and wires, leading to system failures and fires."
     },
     {
-      title: "Fly Control",
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=300&fit=crop",
-      description: "Professional fly control solutions"
+      title: "Termites Control",
+      image: "/images/controls/termites.jpeg",
+      description: "Termite damage is often detected late, leading to costly repairs. Early inspection is essential to prevent extensive damage."
     },
     {
-      title: "General Pest Control",
-      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=300&fit=crop",
-      description: "Comprehensive pest management services"
+      title: "Other Pest",
+      image: "/images/controls/otherpests.png",
+      description: "Common pests in nature can pose serious health risks, contaminate food, and even be deadly if left untreated."
     }
   ];
 

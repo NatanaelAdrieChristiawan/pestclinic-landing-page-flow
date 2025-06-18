@@ -11,7 +11,7 @@ const HeroSlider = () => {
       title: "Professional Pest Control Services",
       subtitle: "Protecting Your Home & Business",
       description: "Expert pest elimination with guaranteed results and eco-friendly solutions",
-      image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1200&h=600&fit=crop"
+      image: "/images/slider/clean.png"
     },
     {
       id: 2,
@@ -112,21 +112,6 @@ const HeroSlider = () => {
           </div>
         </motion.div>
       </AnimatePresence>
-
-      {/* Navigation Arrows */}
-      <button
-        onClick={prevSlide}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white hover:text-primary transition-colors duration-300 p-2"
-      >
-        <ChevronLeft className="h-8 w-8" />
-      </button>
-      
-      <button
-        onClick={nextSlide}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white hover:text-primary transition-colors duration-300 p-2"
-      >
-        <ChevronRight className="h-8 w-8" />
-      </button>
 
       {/* Slide Indicators */}
       <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-2">

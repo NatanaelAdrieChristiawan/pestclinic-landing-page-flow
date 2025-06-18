@@ -1,0 +1,62 @@
+Struktur isi konten
+Gambar konten di kiri lalu di sebelah kanannya deskripsi konten yang menunjukan cirinya yang berisi name, length, Colour, Common Sighting
+
+Lalu dibawahnya terdapat Table Of Contents yang ketika di klik icon dropdownnya muncul isi konten apa saja yang ada di dalam nya ketika salah satu di klik menuju bagian konten tersebut. Saya berikan contoh gambarnya
+
+berikut isi dari Table Of Contents
+1. Quick Facts on Ants
+2. Signs of Ants Infestation
+3. How to Get Rid of Ants?
+4. How to Prevent Ants in the Home?
+5. Common Ants in Singapore
+    5.1. Carpenter Ants
+    5.2. Crazy Ants
+    5.3. Ghost Ants
+    5.4. Pharaoh’s Ants
+6. PestClinic – Professional and Trusted Ant Control Services in Singapore
+7. Engage PestClinic to help you get rid of ants now.
+8. Frequently Asked Questions About Ant Pest Control
+    8.1. How much is pest control for ants?
+    8.2. Can pest control get rid of ants?
+    8.3. How do I keep ants away permanently?
+    8.4. What is the best treatment to get rid of ants?
+
+Setelah table of contents tampilannya sesuai dengan isi tersebut buatkan tampilannya dengan rapi dan responsif
+
+
+1. The Best Bed Bugs Control in Singapore
+2. Looking for Bed Bug Pest Control in Singapore?
+3. Signs of Bed Bugs Infestation
+    3.1. Exoskeletons of Bed Bugs
+    3.2. Live bed bugs on your mattresses and sheets
+    3.3. Rust–coloured spots from their bloody faecal material that they excrete after feeding
+    3.4. A musty and sweet odour
+    3.5. Bites that come in straight lines or tight clusters
+4. What are the Bed Bugs Pest Control Methods in Singapore?
+    4.1. Inspection
+    4.2. Pesticide Sprays
+    4.3. Mist Fumigation
+    4.4. Vacuuming
+5. Bed Bugs Pest Control Prevention Tips
+6. Impact of Bed Bugs Infestation
+    6.1. Mental health impact
+    6.2. Damage to property
+    6.3. Allergic reactions
+7. Quick Facts on Bed Bugs
+8. What Do Bed Bugs Look Like?
+9. Where Do Bed Bugs Hide?
+10. What Do Bed Bugs Feed On?
+11. How To Identify Bed Bug Bites?
+12. PestClinic – Professional and Trusted Bed Bugs Control in Singapore
+13. Frequently Asked Questions
+    13.1. How long does it take to get rid of bed bugs?
+    13.2. Can I treat bed bugs on my own?
+    13.3. Do bed bug treatments require multiple visits?
+    13.4. How much does bed bug control in Singapore cost?
+    13.5. How can I prevent future bed bug infestations?
+    13.6. How to stop bed bugs from spreading?
+    13.7. How much does it cost to get rid of bed bugs in Singapore?
+    13.8. Is it possible to 100% get rid of bed bugs?
+    13.9. Is bed bug common in Singapore?
+    13.10. What kills bed bugs permanently?
+14. More on Bed Bugs Control

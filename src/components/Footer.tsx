@@ -1,8 +1,19 @@
 import { motion } from 'framer-motion';
 import { PhoneCall, Mail, MapPin, Clock, Facebook, Instagram, Linkedin } from 'lucide-react';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+
+  const quickLinks = {
+    'Home': '/',
+    'About Us': '/about',
+    'Pest Control Services': '/services/ants',
+    'Commercial/Industrial Sector': '/commercial',
+    'Disinfection Services': '/disinfection',
+    'Specialist at Work': '/specialist',
+    'Contact Us': '/contact'
+  };
 
   return (
     <footer className="bg-foreground text-background">
@@ -64,12 +75,19 @@ const Footer = () => {
           >
             <h4 className="text-lg font-semibold text-primary">Quick Links</h4>
             <ul className="space-y-2 text-background/80">
-              <li><a href="#" className="hover:text-primary transition-colors duration-300">About Us</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors duration-300">Commercial Services</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors duration-300">Disinfection Services</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors duration-300">Emergency Service</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors duration-300">Free Consultation</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors duration-300">Contact Us</a></li>
+              {Object.entries(quickLinks).map(([name, path]) => (
+                <li key={name}>
+                  <NavLink
+                    to={path}
+                    className={({ isActive }) =>
+                      `text-sm hover:text-primary transition-colors duration-200 
+                      ${isActive ? 'text-primary' : 'text-background'}`
+                    }
+                  >
+                    {name}
+                  </NavLink>
+                </li>
+              ))}
             </ul>
           </motion.div>
 

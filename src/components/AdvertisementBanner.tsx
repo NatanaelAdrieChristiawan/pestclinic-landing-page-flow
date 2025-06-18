@@ -89,7 +89,7 @@ const AdvertisementBanner = () => {
           >
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&h=400&fit=crop"
+                src="/images/slider/adds.png"
                 alt="Emergency Pest Control"
                 className="rounded-2xl shadow-2xl w-full"
               />
