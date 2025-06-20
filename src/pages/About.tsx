@@ -11,7 +11,7 @@ const About = () => {
   const missionItems = [
     {
       title: 'Overview',
-      content: 'We strive to provide the highest quality pest control services while ensuring customer satisfaction and environmental responsibility.'
+      content: 'Inovative affordable Pest free living for every home'
     },
     {
       title: 'Quality Service',
@@ -73,12 +73,9 @@ const About = () => {
             transition={{ duration: 0.6 }}
             className="mb-16"
           >
-            <h1 className="text-4xl font-bold text-gray-900 mb-6">About PestClinic</h1>
+            <h1 className="text-3xl font-bold text-gray-900 mb-6">ABOUT SERVAL INTEGRATED PEST MANAGEMENT SDN BHD (Company No.930788-T)</h1 >
             <p className="text-lg text-gray-700 leading-relaxed">
-              At PestClinic, we are committed to providing innovative and effective pest control solutions
-              while maintaining the highest standards of safety and environmental responsibility. With years
-              of experience and a team of certified professionals, we ensure your peace of mind through
-              comprehensive pest management services.
+              SERVAL INTEGRATED PEST MANAGEMENT SDN BHD is an experienced pest control operator who is committed to offer their extensive knowledge and experience in the industry in order to deliver excellent pest control services. Our commitment to this industry is total. Our capability and level of service has grown from strength to strength over the years. We understand that all our clients are unique and we are committed to always offering them the most innovative approach to their situation. Our unique structure sets us apart from our competitors in allowing us always to provide the optimal approach to our client's environment and needs.
             </p>
           </motion.div>
 
@@ -130,10 +127,7 @@ const About = () => {
             >
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Our Philosophy</h2>
               <p className="text-gray-700 leading-relaxed">
-                At PestClinic, providing solutions that last is ingrained in all of us. 
-                Pest control does not stop at eliminating current threats; we deal with 
-                the root cause to ensure the unwanted guests do not return. At PestClinic, 
-                No Pest; No Stress.
+                We are a dedicated team of innovative, dynamic and positive individuals who are committed to delivering excellence to all our stakeholders. Our integrity requires us to be competent, effective, efficient, knowledgeable, honest and trustworthy at all times.
               </p>
             </motion.div>
 

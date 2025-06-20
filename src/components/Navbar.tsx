@@ -100,17 +100,17 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <NavLink to="/">
-              <img 
-                src="/images/logo/logopest.png" 
-                alt="PestClinic Logo" 
-                className="h-16 w-auto"
+              <img
+                src="/images/logo/serval.png"
+                alt="PestClinic Logo"
+                className="h-14 w-auto"
               />
             </NavLink>
           </div>
 
           {/* Desktop Menu */}
           <div className="hidden lg:block flex-1">
-            <div className="ml-16 flex items-center justify-end space-x-18">
+            <div className="ml-16 flex items-center justify-end space-x-10">
               {menuItems.map((item) => (
                 <div key={item} className="relative">
                   {item === 'PEST CONTROL SERVICES' ? (
@@ -119,13 +119,13 @@ const Navbar = () => {
                       onMouseEnter={() => setIsDropdownOpen(true)}
                       onMouseLeave={() => setIsDropdownOpen(false)}
                     >
-                      <button 
-                        className={`px-2 py-1 text-sm font-medium flex items-center transition-colors duration-200
-                          ${location.pathname.includes('/services') 
-                            ? 'text-primary' 
+                      <button
+                        className={`px-4 py-1 text-xs font-medium flex items-center transition-colors duration-200
+                          ${location.pathname.includes('/services')
+                            ? 'text-primary'
                             : 'text-gray-800 hover:text-primary'
                           }`}
-                      >
+                      > 
                         {item}
                         <ChevronDown className="ml-1 h-4 w-4" />
                       </button>
@@ -135,7 +135,7 @@ const Navbar = () => {
                     <NavLink
                       to={routes[item]}
                       className={({ isActive }) =>
-                        `px-2 py-1 text-sm font-medium transition-colors duration-200 
+                        `px-2 py-1 text-xs font-medium transition-colors duration-200 
                         ${isActive ? 'text-primary' : 'text-gray-800 hover:text-primary'}`
                       }
                     >

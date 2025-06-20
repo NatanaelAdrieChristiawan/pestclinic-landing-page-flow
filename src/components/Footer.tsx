@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
-import { PhoneCall, Mail, MapPin, Clock, Facebook, Instagram, Linkedin } from 'lucide-react';
-import { NavLink } from 'react-router-dom';
+import { FaFacebook, FaInstagram, FaLinkedin, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -16,156 +15,88 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-foreground text-background">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Main Footer Content */}
-        <div className="py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Company Info */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="space-y-4"
-          >
-            <h3 className="text-2xl font-bold text-primary">PestClinic</h3>
-            <p className="text-background/80 leading-relaxed">
-              Singapore's premier pest control company providing comprehensive 
-              pest management solutions since 2008.
-            </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-background/60 hover:text-primary transition-colors duration-300">
-                <Facebook className="h-5 w-5" />
+    <footer className="bg-[#18443d] text-gray-100 pt-12 pb-6 px-4">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+        {/* Logo & Address */}
+        <div className="space-y-4">
+          <img src="/images/logo-pestbusters.png" alt="PestBusters Logo" className="h-12 mb-2" />
+          <div className="text-sm leading-relaxed">
+            <div>Original PestBusters Sdn Bhd</div>
+            <div>201401048546 (1124735-T)</div>
+            <div>No. 36-1 & 36-3, Jalan Jalil 1, Bumi Bukit Jalil,</div>
+            <div>Lebuhraya Puchong – Sungai Besi, 57000</div>
+            <div>Kuala Lumpur</div>
+          </div>
+          <div className="mt-4">
+            <span className="font-semibold">FOLLOW US</span>
+            <div className="flex space-x-4 mt-2">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <FaFacebook size={20} />
               </a>
-              <a href="#" className="text-background/60 hover:text-primary transition-colors duration-300">
-                <Instagram className="h-5 w-5" />
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <FaInstagram size={20} />
               </a>
-              <a href="#" className="text-background/60 hover:text-primary transition-colors duration-300">
-                <Linkedin className="h-5 w-5" />
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <FaLinkedin size={20} />
               </a>
             </div>
-          </motion.div>
-
-          {/* Services */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.1 }}
-            className="space-y-4"
-          >
-            <h4 className="text-lg font-semibold text-primary">Our Services</h4>
-            <ul className="space-y-2 text-background/80">
-              <li><a href="#" className="hover:text-primary transition-colors duration-300">Termite Control</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors duration-300">Rodent Control</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors duration-300">Cockroach Treatment</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors duration-300">Bed Bug Elimination</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors duration-300">Ant Control</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors duration-300">Mosquito Control</a></li>
-            </ul>
-          </motion.div>
-
-          {/* Quick Links */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="space-y-4"
-          >
-            <h4 className="text-lg font-semibold text-primary">Quick Links</h4>
-            <ul className="space-y-2 text-background/80">
-              {Object.entries(quickLinks).map(([name, path]) => (
-                <li key={name}>
-                  <NavLink
-                    to={path}
-                    className={({ isActive }) =>
-                      `text-sm hover:text-primary transition-colors duration-200 
-                      ${isActive ? 'text-primary' : 'text-background'}`
-                    }
-                  >
-                    {name}
-                  </NavLink>
-                </li>
-              ))}
-            </ul>
-          </motion.div>
-
-          {/* Contact Info */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="space-y-4"
-          >
-            <h4 className="text-lg font-semibold text-primary">Contact Info</h4>
-            <div className="space-y-3 text-background/80">
-              <div className="flex items-start space-x-3">
-                <PhoneCall className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                <div>
-                  <p className="font-medium">24/7 Hotline</p>
-                  <p>+65 1234 5678</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start space-x-3">
-                <Mail className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                <div>
-                  <p className="font-medium">Email</p>
-                  <p>info@pestclinic.sg</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start space-x-3">
-                <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                <div>
-                  <p className="font-medium">Address</p>
-                  <p>123 Pest Control Street<br />Singapore 123456</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start space-x-3">
-                <Clock className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                <div>
-                  <p className="font-medium">Operating Hours</p>
-                  <p>Mon-Sun: 24/7<br />Emergency Available</p>
-                </div>
-              </div>
-            </div>
-          </motion.div>
+          </div>
         </div>
 
-        {/* Bottom Footer */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          className="border-t border-background/20 py-6"
-        >
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="text-background/60 text-sm">
-              © {currentYear} PestClinic Singapore. All rights reserved.
+        {/* Company Links */}
+        <div>
+          <div className="font-semibold mb-2">COMPANY</div>
+          <ul className="space-y-2 text-sm">
+            <li><a href="#" className="hover:underline">Privacy Policy</a></li>
+            <li><a href="#" className="hover:underline">Legal Statement</a></li>
+            <li><a href="#" className="hover:underline">Sitemap</a></li>
+          </ul>
+          {/* Logos */}
+          <div className="flex flex-wrap gap-4 mt-6">
+            <img src="/images/footer/mpma.png" alt="MPMA" className="h-10" />
+            <img src="/images/footer/jabatan-pertanian.png" alt="Jabatan Pertanian" className="h-10" />
+            <img src="/images/footer/best-brands.png" alt="Best Brands" className="h-10" />
+            <img src="/images/footer/trusted-malaysia.png" alt="Trusted Malaysia" className="h-10" />
+          </div>
+        </div>
+
+        {/* Call & Email */}
+        <div className="space-y-6">
+          <div>
+            <div className="font-semibold mb-1">CALL US NOW</div>
+            <div className="flex items-center space-x-2 text-lg font-bold">
+              <FaPhoneAlt />
+              <span>+603 8080 3344</span>
             </div>
-            
-            <div className="flex flex-wrap justify-center md:justify-end space-x-6 text-sm">
-              <a href="#" className="text-background/60 hover:text-primary transition-colors duration-300">
-                Privacy Policy
-              </a>
-              <a href="#" className="text-background/60 hover:text-primary transition-colors duration-300">
-                Terms of Service
-              </a>
-              <a href="#" className="text-background/60 hover:text-primary transition-colors duration-300">
-                Cookie Policy
+          </div>
+          <div>
+            <div className="font-semibold mb-1">ENQUIRE NOW</div>
+            <div className="flex items-center space-x-2 text-sm">
+              <FaEnvelope />
+              <a href="mailto:support@pestbustersmalaysia.com.my" className="hover:underline font-semibold">
+                support@pestbustersmalaysia.com.my
               </a>
             </div>
           </div>
-          
-          <div className="mt-4 text-center text-background/60 text-xs">
-            <p>NEA Licensed Pest Control Company | License No: PC12345678</p>
+        </div>
+
+        {/* Brochure */}
+        <div className="flex flex-col justify-between">
+          <div>
+            <div className="font-semibold mb-2">DISCOVER MORE</div>
+            <a
+              href="/brochure.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-white text-[#18443d] font-semibold text-center py-4 rounded-lg shadow hover:bg-gray-100 transition"
+            >
+              DOWNLOAD BROCHURE
+            </a>
           </div>
-        </motion.div>
+        </div>
+      </div>
+      <div className="text-center text-sm text-gray-300 mt-10">
+        Copyright 2025 Pestbusters. All rights reserved.
       </div>
     </footer>
   );
