@@ -1,51 +1,61 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
+import { Link } from 'react-router-dom'; // Tambahkan import Link
 
 const ServicesGrid = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
+  // Tambahkan path untuk setiap service sesuai App.tsx
   const services = [
     {
       title: "Ants Control",
       image: "/images/controls/ants.png",
-      description: "Even in a clean home, ants can infest and quickly expand. Act swiftly at the first signs to contain them and prevent further spread.	"
+      description: "Even in a clean home, ants can infest and quickly expand. Act swiftly at the first signs to contain them and prevent further spread.",
+      path: "/services/ants"
     },
     {
       title: "Bed Bugs Control",
       image: "/images/controls/bedbugs.jpg",
-      description: "Bed bugs cause irritation and discomfort. PestClinic offers effective bed bug control services to eliminate infestations."
+      description: "Bed bugs cause irritation and discomfort. PestClinic offers effective bed bug control services to eliminate infestations.",
+      path: "/services/bed-bugs"
     },
     {
       title: "Cockroach Control",
       image: "/images/controls/cockroach.jpeg",
-      description: "Act quickly at the first sign of cockroaches to control and limit their spread"
+      description: "Act quickly at the first sign of cockroaches to control and limit their spread",
+      path: "/services/cockroaches"
     },
     {
       title: "Flies Control",
       image: "/images/controls/flies.jpeg",
-      description: "The housefly is the most common type found in homes. Due to their high reproduction rate, prompt pest control is essential"
+      description: "The housefly is the most common type found in homes. Due to their high reproduction rate, prompt pest control is essential",
+      path: "/services/flies"
     },
     {
       title: "Mosquitoes Treatment",
       image: "/images/controls/mosquitoes.jpeg",
-      description: "Mosquito-borne diseases are a risk. Protect yourself by removing breeding grounds"
+      description: "Mosquito-borne diseases are a risk. Protect yourself by removing breeding grounds",
+      path: "/services/mosquitos"
     },
     {
       title: "Rodents Control",
       image: "/images/controls/rodent.jpg",
-      description: "Rats cause severe damage to household items and wires, leading to system failures and fires."
+      description: "Rats cause severe damage to household items and wires, leading to system failures and fires.",
+      path: "/services/rodents"
     },
     {
       title: "Termites Control",
       image: "/images/controls/termites.jpeg",
-      description: "Termite damage is often detected late, leading to costly repairs. Early inspection is essential to prevent extensive damage."
+      description: "Termite damage is often detected late, leading to costly repairs. Early inspection is essential to prevent extensive damage.",
+      path: "/services/termite/control"
     },
     {
       title: "Other Pest",
       image: "/images/controls/otherpests.png",
-      description: "Common pests in nature can pose serious health risks, contaminate food, and even be deadly if left untreated."
+      description: "Common pests in nature can pose serious health risks, contaminate food, and even be deadly if left untreated.",
+      path: "/services/other-pests"
     }
   ];
 
@@ -95,13 +105,15 @@ const ServicesGrid = () => {
                   {service.description}
                 </p>
                 
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="mt-4 text-[#162957] font-semibold text-sm hover:underline"
-                >
-                  Learn More →
-                </motion.button>
+                <Link to={service.path}>
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="mt-4 text-[#162957] font-semibold text-sm hover:underline"
+                  >
+                    Learn More →
+                  </motion.button>
+                </Link>
               </div>
             </motion.div>
           ))}

@@ -104,7 +104,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full">
-      <nav className="bg-white shadow-lg sticky top-0 z-50 w-full relative">
+      <nav className="bg-white shadow-lg sticky top-0 z-50 w-full">
         <div className="max-w-none px-4 sm:px-6 lg:px-8 2xl:max-w-7xl 2xl:mx-auto relative">
           <div className="flex justify-between items-center h-16 lg:h-20">
             <div className="flex-shrink-0">
