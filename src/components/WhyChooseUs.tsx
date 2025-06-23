@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                 transition={{ delay: 0.2, duration: 0.6 }}
-                className="text-primary font-semibold text-lg mb-2"
+                className="text-[#162957] font-semibold text-lg mb-2"
               >
                 Why Choose PestClinic
               </motion.h3>
@@ -34,7 +34,7 @@ const WhyChooseUs = () => {
                 transition={{ delay: 0.3, duration: 0.6 }}
                 className="text-4xl font-bold text-foreground mb-6"
               >
-                Singapore's Most Trusted Pest Control Experts
+                Kuala Lumpur's Most Trusted Pest Control Experts
               </motion.h2>
               
               <motion.p
@@ -44,7 +44,7 @@ const WhyChooseUs = () => {
                 className="text-muted-foreground text-lg leading-relaxed"
               >
                 With over a decade of experience and thousands of satisfied customers, 
-                PestClinic stands as Singapore's premier pest control solution provider.
+                PestClinic stands as Kuala Lumpur's premier pest control solution provider.
               </motion.p>
             </div>
 
@@ -55,9 +55,9 @@ const WhyChooseUs = () => {
               transition={{ delay: 0.5, duration: 0.8 }}
               className="grid grid-cols-1 md:grid-cols-3 gap-6"
             >
-              <div className="text-center p-6 bg-secondary/50 rounded-2xl hover:bg-secondary transition-colors duration-300">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Shield className="h-8 w-8 text-primary" />
+              <div className="text-center p-6 bg-secondary/50 rounded-2xl hover:bg-[#cedff9] transition-colors duration-300">
+                <div className="w-16 h-16 bg-[#162957]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Shield className="h-8 w-8 text-[#162957]" />
                 </div>
                 <h4 className="font-bold text-foreground mb-2">Quality Assurance</h4>
                 <p className="text-muted-foreground text-sm">
@@ -65,9 +65,9 @@ const WhyChooseUs = () => {
                 </p>
               </div>
 
-              <div className="text-center p-6 bg-secondary/50 rounded-2xl hover:bg-secondary transition-colors duration-300">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Award className="h-8 w-8 text-primary" />
+              <div className="text-center p-6 bg-secondary/50 rounded-2xl hover:bg-[#cedff9] transition-colors duration-300">
+                <div className="w-16 h-16 bg-[#162957]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Award className="h-8 w-8 text-[#162957]" />
                 </div>
                 <h4 className="font-bold text-foreground mb-2">NEA Certified</h4>
                 <p className="text-muted-foreground text-sm">
@@ -75,9 +75,9 @@ const WhyChooseUs = () => {
                 </p>
               </div>
 
-              <div className="text-center p-6 bg-secondary/50 rounded-2xl hover:bg-secondary transition-colors duration-300">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <PhoneCall className="h-8 w-8 text-primary" />
+              <div className="text-center p-6 bg-secondary/50 rounded-2xl hover:bg-[#cedff9] transition-colors duration-300">
+                <div className="w-16 h-16 bg-[#162957]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <PhoneCall className="h-8 w-8 text-[#162957]" />
                 </div>
                 <h4 className="font-bold text-foreground mb-2">Free Consultation</h4>
                 <p className="text-muted-foreground text-sm">
@@ -94,8 +94,8 @@ const WhyChooseUs = () => {
               className="grid grid-cols-1 md:grid-cols-2 gap-8"
             >
               <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Target className="h-6 w-6 text-primary" />
+                <div className="w-12 h-12 bg-[#162957]/10 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Target className="h-6 w-6 text-[#162957]" />
                 </div>
                 <div>
                   <h4 className="font-bold text-foreground mb-2">Source Elimination</h4>
@@ -107,8 +107,8 @@ const WhyChooseUs = () => {
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
-                  <TrendingDown className="h-6 w-6 text-primary" />
+                <div className="w-12 h-12 bg-[#162957]/10 rounded-full flex items-center justify-center flex-shrink-0">
+                  <TrendingDown className="h-6 w-6 text-[#162957]" />
                 </div>
                 <div>
                   <h4 className="font-bold text-foreground mb-2">Population Reduction</h4>
@@ -145,7 +145,7 @@ const WhyChooseUs = () => {
               className="absolute -top-6 -left-6 bg-background p-6 rounded-2xl shadow-xl border border-border"
             >
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">5000+</div>
+                <div className="text-3xl font-bold text-[#162957]">5000+</div>
                 <div className="text-sm text-muted-foreground">Happy Customers</div>
               </div>
             </motion.div>
@@ -154,7 +154,7 @@ const WhyChooseUs = () => {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
               transition={{ delay: 1, duration: 0.6 }}
-              className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground p-6 rounded-2xl shadow-xl"
+              className="absolute -bottom-6 -right-6 bg-[#162957] text-primary-foreground p-6 rounded-2xl shadow-xl"
             >
               <div className="text-center">
                 <div className="text-3xl font-bold">98%</div>

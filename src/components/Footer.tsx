@@ -15,14 +15,14 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-[#18443d] text-gray-100 pt-12 pb-6 px-4">
+    <footer className="bg-[#162957] text-gray-100 pt-12 pb-6 px-4">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Logo & Address */}
         <div className="space-y-4">
-          <img src="/images/logo-pestbusters.png" alt="PestBusters Logo" className="h-12 mb-2" />
+          <img src="/images/logo/serval.png " alt="PestBusters Logo" className="h-12 mb-2" />
           <div className="text-sm leading-relaxed">
-            <div>Original PestBusters Sdn Bhd</div>
-            <div>201401048546 (1124735-T)</div>
+            <div>SERVAL INTEGRATED PEST MANAGEMENT SDN BHD</div>
+            <div>Company No.930788-T</div>
             <div>No. 36-1 & 36-3, Jalan Jalil 1, Bumi Bukit Jalil,</div>
             <div>Lebuhraya Puchong – Sungai Besi, 57000</div>
             <div>Kuala Lumpur</div>
@@ -66,15 +66,15 @@ const Footer = () => {
             <div className="font-semibold mb-1">CALL US NOW</div>
             <div className="flex items-center space-x-2 text-lg font-bold">
               <FaPhoneAlt />
-              <span>+603 8080 3344</span>
+              <span>+03-78320930</span>
             </div>
           </div>
           <div>
             <div className="font-semibold mb-1">ENQUIRE NOW</div>
             <div className="flex items-center space-x-2 text-sm">
               <FaEnvelope />
-              <a href="mailto:support@pestbustersmalaysia.com.my" className="hover:underline font-semibold">
-                support@pestbustersmalaysia.com.my
+              <a href="mailto:finance.servalintegrated@gmail.com" className="hover:underline font-semibold">
+                finance.servalintegrated@gmail.com
               </a>
             </div>
           </div>

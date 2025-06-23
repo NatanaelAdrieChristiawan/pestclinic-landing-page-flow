@@ -31,7 +31,7 @@ const Disinfection = () => {
             transition={{ delay: 0.5, duration: 0.6, ease: 'easeOut' }}
             className="text-white text-lg"
           >
-            <Link to="/" className="hover:text-primary transition-colors">Home</Link>
+            <Link to="/" className="hover:text-[#162957] transition-colors">Home</Link>
             <span className="mx-2">&gt;</span>
             <span>Disinfection Services</span>
           </motion.nav>
@@ -69,7 +69,7 @@ const Disinfection = () => {
                 Well loved by business owners and homeowners, we disinfect offices, schools, restaurants and homes to provide a pest free & healthy environment for everyone.
               </p>
               <div className="pt-4">
-                <p className="text-xl font-bold text-primary">The safety of your health is our top priority.</p>
+                <p className="text-xl font-bold text-[#162957]">The safety of your health is our top priority.</p>
                 <p className="text-lg text-gray-600 mt-2">
                   Call us for a non-obligated consultation service.
                 </p>
@@ -111,12 +111,12 @@ const Disinfection = () => {
             className="text-center space-y-6"
           >
             <p className="text-2xl">
-              Engage PestClinic to <span className="font-bold">disinfect</span> your place now.
+              Engage SERVAL INTEGRATED PEST MANAGEMENT to <span className="font-bold">disinfect</span> your place now.
             </p>
             <div>
               <a
                 href="/contact"
-                className="inline-block bg-primary text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-primary/90 transition-colors"
+                className="inline-block bg-[#162957] text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-[#162957]/90 transition-colors"
               >
                 Request for Disinfection
               </a>

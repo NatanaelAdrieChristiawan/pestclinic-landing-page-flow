@@ -16,7 +16,7 @@ const CustomerReviews = () => {
       avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b5bc?w=100&h=100&fit=crop&crop=face",
       rating: 5,
       comment: "Excellent service! PestClinic solved our termite problem completely. The team was professional, punctual, and very thorough. Highly recommended!",
-      location: "Orchard, Singapore"
+      location: "Orchard, Kuala Lumpur"
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ const CustomerReviews = () => {
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
       rating: 5,
       comment: "Outstanding pest control service. They handled our office cockroach issue efficiently and discreetly. No disruption to our business operations.",
-      location: "CBD, Singapore"
+      location: "CBD, Kuala Lumpur"
     },
     {
       id: 3,
@@ -32,7 +32,7 @@ const CustomerReviews = () => {
       avatar: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100&h=100&fit=crop&crop=face",
       rating: 5,
       comment: "Fast response time and effective treatment. Our ant problem was resolved within days. The technician explained everything clearly and provided helpful tips.",
-      location: "Tampines, Singapore"
+      location: "Tampines, Kuala Lumpur"
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ const CustomerReviews = () => {
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
       rating: 5,
       comment: "Professional and reliable service. They eliminated our rodent problem and provided excellent follow-up service. Great value for money!",
-      location: "Jurong, Singapore"
+      location: "Jurong, Kuala Lumpur"
     },
     {
       id: 5,
@@ -48,7 +48,7 @@ const CustomerReviews = () => {
       avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
       rating: 5,
       comment: "Impressed with their eco-friendly approach. Safe for my family and pets while being highly effective against pests. Will definitely use again.",
-      location: "Serangoon, Singapore"
+      location: "Serangoon, Kuala Lumpur"
     }
   ];
 
@@ -87,7 +87,7 @@ const CustomerReviews = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h3 className="text-primary font-semibold text-lg mb-2">Customer Reviews</h3>
+          <h3 className="text-[#162957] font-semibold text-lg mb-2">Customer Reviews</h3>
           <h2 className="text-4xl font-bold text-foreground mb-4">
             What Our Customers Say
           </h2>
@@ -108,7 +108,7 @@ const CustomerReviews = () => {
               className="bg-background border border-border rounded-3xl p-8 md:p-12 shadow-lg relative"
             >
               {/* Quote Icon */}
-              <div className="absolute top-6 left-6 text-primary/20">
+              <div className="absolute top-6 left-6 text-[#96b5fc]">
                 <Quote className="h-12 w-12" />
               </div>
 
@@ -123,7 +123,7 @@ const CustomerReviews = () => {
                   <img
                     src={reviews[currentReview].avatar}
                     alt={reviews[currentReview].name}
-                    className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover border-4 border-primary/20"
+                    className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover border-4 border-[#96b5fc]"
                   />
                 </motion.div>
 
@@ -186,7 +186,7 @@ const CustomerReviews = () => {
                 key={index}
                 onClick={() => setCurrentReview(index)}
                 className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                  index === currentReview ? 'bg-primary' : 'bg-muted-foreground/30'
+                  index === currentReview ? 'bg-[#162957]' : 'bg-muted-foreground/30'
                 }`}
               />
             ))}

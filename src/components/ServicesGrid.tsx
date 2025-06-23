@@ -58,7 +58,7 @@ const ServicesGrid = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h3 className="text-primary font-semibold text-lg mb-2">Our Services</h3>
+          <h3 className="text-[#162957] font-semibold text-lg mb-2">Our Services</h3>
           <h2 className="text-4xl font-bold text-foreground mb-4">
             Comprehensive Pest Control Solutions
           </h2>
@@ -84,11 +84,11 @@ const ServicesGrid = () => {
                   className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-20 transition-all duration-300" />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#162957]/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
               
               <div className="p-6">
-                <h3 className="text-xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors duration-300">
+                <h3 className="text-xl font-bold text-foreground mb-2 group-hover:text-[#8299bd] transition-colors duration-300">
                   {service.title}
                 </h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
@@ -98,7 +98,7 @@ const ServicesGrid = () => {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="mt-4 text-primary font-semibold text-sm hover:underline"
+                  className="mt-4 text-[#162957] font-semibold text-sm hover:underline"
                 >
                   Learn More →
                 </motion.button>

@@ -88,12 +88,12 @@ const Cockroaches = () => {
         <h2 className="text-2xl font-bold mb-6">What are the Cockroach Treatment and Control Methods in Singapore?</h2>
         <div className="space-y-8">
           <div id="baits" className="scroll-mt-24">
-            <h3 className="text-xl font-semibold text-primary mb-4">Cockroach Baits</h3>
+            <h3 className="text-xl font-semibold text-[#162957] mb-4">Cockroach Baits</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <img 
-                src="/images/services/cockroach/baits-treatment.jpg" 
+                src="/images/services/baits1.png" 
                 alt="Cockroach Baits"
-                className="rounded-lg w-full"
+                className="rounded-lg w-60"
               />
               <div className="prose max-w-none">
                 <p>
@@ -106,12 +106,12 @@ const Cockroaches = () => {
           </div>
 
           <div id="spray" className="scroll-mt-24">
-            <h3 className="text-xl font-semibold text-primary mb-4">Insecticide Residual Spray</h3>
+            <h3 className="text-xl font-semibold text-[#162957] mb-4">Insecticide Residual Spray</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <img 
-                src="/images/services/cockroach/spray-treatment.jpg" 
+                src="/images/services/baits2.png" 
                 alt="Insecticide Spray"
-                className="rounded-lg w-full"
+                className="rounded-lg w-60"
               />
               <div className="prose max-w-none">
                 <p>
@@ -124,12 +124,12 @@ const Cockroaches = () => {
           </div>
 
           <div id="fogging" className="scroll-mt-24">
-            <h3 className="text-xl font-semibold text-primary mb-4">Bin Chutes Fogging</h3>
+            <h3 className="text-xl font-semibold text-[#162957] mb-4">Bin Chutes Fogging</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <img 
-                src="/images/services/cockroach/fogging-treatment.jpg" 
+                src="/images/services/baits3.png" 
                 alt="Bin Chutes Fogging"
-                className="rounded-lg w-full"
+                className="rounded-lg w-60"
               />
               <div className="prose max-w-none">
                 <p>
@@ -214,7 +214,7 @@ const Cockroaches = () => {
         transition={{ duration: 1, ease: 'easeOut' }}
       >
         <motion.img
-          src="/images/slider/ants-banner.jpg"
+          src="/images/controls/cockroach.jpeg"
           alt="Ants Control Services Banner"
           className="absolute inset-0 w-full h-full object-cover"
           initial={{ scale: 1.1 }}
@@ -229,9 +229,9 @@ const Cockroaches = () => {
             transition={{ delay: 0.5, duration: 0.6, ease: 'easeOut' }}
             className="text-white text-lg"
           >
-            <Link to="/" className="hover:text-primary transition-colors">Home</Link>
+            <Link to="/" className="hover:text-[#162957] transition-colors">Home</Link>
             <span className="mx-2">&gt;</span>
-            <Link to="/services" className="hover:text-primary transition-colors">Pest Control Services</Link>
+            <Link to="/services" className="hover:text-[#162957] transition-colors">Pest Control Services</Link>
             <span className="mx-2">&gt;</span>
             <span>Cockroach Pest Control</span>
           </motion.nav>
@@ -242,16 +242,30 @@ const Cockroaches = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Characteristics Section */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            <div className="space-y-4">
-              <h2 className="text-2xl font-bold">Cockroach Characteristics</h2>
-              <ul className="list-disc list-inside">
-                {Object.entries(cockroachCharacteristics).map(([key, value]) => (
-                  <li key={key} className="text-gray-700">
-                    <span className="font-semibold">{key}:</span> {value}
-                  </li>
-                ))}
-              </ul>
-            </div>
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              className="rounded-lg overflow-hidden"
+            >
+              <img
+                src="/images/controls/cockroach.jpeg"
+                alt="Cockroach Characteristics"
+                className="w-60 h-90 object-cover"
+              />
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              className="space-y-4"
+            >
+              {Object.entries(cockroachCharacteristics).map(([key, value]) => (
+                <div key={key} className="border-b border-gray-200 pb-2">
+                  <span className="font-semibold">{key}:</span>
+                  <span className="ml-2">{value}</span>
+                </div>
+              ))}
+            </motion.div>
           </div>
 
           {/* Table of Contents */}
@@ -262,7 +276,7 @@ const Cockroaches = () => {
           >
             <button
               onClick={() => setIsTableOpen(!isTableOpen)}
-              className="w-full bg-primary text-white p-4 rounded-lg flex justify-between items-center"
+              className="w-full bg-[#162957] text-white p-4 rounded-lg flex justify-between items-center"
             >
               <span className="text-xl font-bold">Table of Contents</span>
               <ChevronDown
@@ -281,7 +295,7 @@ const Cockroaches = () => {
                     <div key={item.id} className="space-y-2">
                       <button
                         onClick={() => scrollToSection(item.id)}
-                        className="text-left w-full hover:text-primary transition-colors"
+                        className="text-left w-full hover:text-[#162957] transition-colors"
                       >
                         {item.title}
                       </button>
@@ -291,7 +305,7 @@ const Cockroaches = () => {
                             <button
                               key={subItem.id}
                               onClick={() => scrollToSection(subItem.id)}
-                              className="text-left w-full text-gray-600 hover:text-primary transition-colors"
+                              className="text-left w-full text-gray-600 hover:text-[#162957] transition-colors"
                             >
                               {subItem.title}
                             </button>

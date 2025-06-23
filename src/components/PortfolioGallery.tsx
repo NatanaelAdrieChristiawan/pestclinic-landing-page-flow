@@ -57,7 +57,7 @@ const PortfolioGallery = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h3 className="text-primary font-semibold text-lg mb-2">Our Work</h3>
+          <h3 className="text-[#162957] font-semibold text-lg mb-2">Our Work</h3>
           <h2 className="text-4xl font-bold text-foreground mb-4">
             Comprehensive Pest Control in Singapore for Every Industry
           </h2>
@@ -87,7 +87,7 @@ const PortfolioGallery = () => {
                 {/* Zoom Icon */}
                 <button
                   onClick={() => setSelectedImage(index)}
-                  className="absolute top-4 right-4 bg-background text-primary p-2 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-300 hover:scale-110"
+                  className="absolute top-4 right-4 bg-background text-[#162957] p-2 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-300 hover:scale-110"
                 >
                   <ZoomIn className="h-5 w-5" />
                 </button>
@@ -122,7 +122,7 @@ const PortfolioGallery = () => {
             >
               <button
                 onClick={() => setSelectedImage(null)}
-                className="absolute -top-12 right-0 text-white hover:text-primary transition-colors"
+                className="absolute -top-12 right-0 text-white hover:text-[#96b5fc] transition-colors"
               >
                 <X className="h-8 w-8" />
               </button>

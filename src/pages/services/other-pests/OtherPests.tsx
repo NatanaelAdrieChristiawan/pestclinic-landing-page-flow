@@ -33,7 +33,7 @@ const OtherPests = () => {
         transition={{ duration: 1, ease: 'easeOut' }}
       >
         <motion.img
-          src="/images/slider/other-pests-banner.jpg"
+          src="/images/controls/otherpests.png"
           alt="Other Pests Control Services Banner"
           className="absolute inset-0 w-full h-full object-cover"
           initial={{ scale: 1.1 }}
@@ -48,9 +48,9 @@ const OtherPests = () => {
             transition={{ delay: 0.5, duration: 0.6, ease: 'easeOut' }}
             className="text-white text-lg"
           >
-            <Link to="/" className="hover:text-primary transition-colors">Home</Link>
+            <Link to="/" className="hover:text-[#162957] transition-colors">Home</Link>
             <span className="mx-2">&gt;</span>
-            <Link to="/services" className="hover:text-primary transition-colors">Pest Control Services</Link>
+            <Link to="/services" className="hover:text-[#162957] transition-colors">Pest Control Services</Link>
             <span className="mx-2">&gt;</span>
             <span>Other Pests Control</span>
           </motion.nav>
@@ -64,7 +64,7 @@ const OtherPests = () => {
             <ul className="list-none space-y-2">
               {pestsList.map((pest, index) => (
                 <li key={index} className="flex items-center space-x-2">
-                  <span className="text-primary">•</span>
+                  <span className="text-[#162957]">•</span>
                   <span>{pest}</span>
                 </li>
               ))}
@@ -75,24 +75,24 @@ const OtherPests = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mt-12">
             <div className="relative">
               <img 
-                src="/images/services/other-pests/paradise-tree-snake.jpg"
+                src="/images/controls/paradise.png"
                 alt="Paradise tree snake"
-                className="w-full h-64 object-cover rounded-lg"
+                className="w-auto h-60 object-cover rounded-lg"
               />
-              <p className="mt-2 text-center font-medium">Paradise tree snake</p>
+              <p className="mt-2 text-start font-medium">Paradise tree snake</p>
             </div>
             <div className="relative">
               <img 
-                src="/images/services/other-pests/honey-bees.jpg"
+                src="/images/controls/honey.png"
                 alt="Honey Bees"
-                className="w-full h-64 object-cover rounded-lg"
+                className="w-auto h-60 object-cover rounded-lg"
               />
-              <p className="mt-2 text-center font-medium">Honey Bees</p>
+              <p className="mt-2 text-start font-medium">Honey Bees</p>
             </div>
           </div>
 
           {/* Red Banner Section */}
-          <div className="bg-red-700 text-white p-6 rounded-lg mt-12">
+          <div className="bg-[#162957] text-white p-6 rounded-lg mt-12">
             <p className="text-center">
               Spotted a pest in your home but not sure what it is? The experts at PestClinic will help you to identify and eliminate it if necessary! Contact us at +65 6267 5677 or through email at info@pestclinic.com.sg to hire our specialist!
             </p>

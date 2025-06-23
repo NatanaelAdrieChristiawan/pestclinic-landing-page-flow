@@ -46,7 +46,7 @@ const Contact = () => {
             transition={{ delay: 0.5, duration: 0.6, ease: 'easeOut' }}
             className="text-white text-lg"
           >
-            <Link to="/" className="hover:text-primary transition-colors">Home</Link>
+            <Link to="/" className="hover:text-[#162957] transition-colors">Home</Link>
             <span className="mx-2">&gt;</span>
             <span>Contact Us</span>
           </motion.nav>
@@ -55,7 +55,7 @@ const Contact = () => {
 
       <div className="flex-grow py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto bg-white rounded-lg shadow p-8">
-          <h1 className="text-3xl font-bold mb-6 text-primary">Contact Us</h1>
+          <h1 className="text-3xl font-bold mb-6 text-[#162957]">Contact Us</h1>
           
           {/* Contact Info */}
           <div className="mb-8 space-y-2 text-gray-700">
@@ -70,7 +70,7 @@ const Contact = () => {
               <span className="font-semibold">Tel :</span> 03-78320930
             </div>
             <div>
-              <span className="font-semibold">Email :</span> <a href="mailto:finance.servalintegrated@gmail.com" className="text-primary underline">finance.servalintegrated@gmail.com</a>
+              <span className="font-semibold">Email :</span> <a href="mailto:finance.servalintegrated@gmail.com" className="text-[#162957] underline">finance.servalintegrated@gmail.com</a>
             </div>
             <div>
               <span className="font-semibold">Working hours:</span><br />

@@ -24,7 +24,7 @@ const FAQSectionAnts = ({ faqs }: FAQSectionProps) => {
         {faqs.map((faq, index) => (
           <div key={index} className="border-b border-gray-200">
             <button
-              className="w-full flex items-center justify-between p-4 bg-primary text-white hover:bg-primary/90 transition-colors"
+              className="w-full flex items-center justify-between p-4 bg-[#162957] text-white hover:bg-[#162957]/90 transition-colors"
               onClick={() => toggleFAQ(index)}
             >
               <span className="text-left font-medium">{faq.question}</span>

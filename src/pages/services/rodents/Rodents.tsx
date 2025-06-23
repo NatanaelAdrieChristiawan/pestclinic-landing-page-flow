@@ -74,11 +74,6 @@ const Rodents = () => {
                 <li>Field Mice</li>
               </ul>
             </div>
-            <img 
-              src="/images/services/rodents/common-species.jpg" 
-              alt="Common Rodent Species"
-              className="rounded-lg w-full"
-            />
           </div>
         </div>
       </section>
@@ -125,7 +120,7 @@ const Rodents = () => {
         transition={{ duration: 1, ease: 'easeOut' }}
       >
         <motion.img
-          src="/images/slider/ants-banner.jpg"
+          src="/images/controls/rodent.jpg"
           alt="Ants Control Services Banner"
           className="absolute inset-0 w-full h-full object-cover"
           initial={{ scale: 1.1 }}
@@ -140,9 +135,9 @@ const Rodents = () => {
             transition={{ delay: 0.5, duration: 0.6, ease: 'easeOut' }}
             className="text-white text-lg"
           >
-            <Link to="/" className="hover:text-primary transition-colors">Home</Link>
+            <Link to="/" className="hover:text-[#162957] transition-colors">Home</Link>
             <span className="mx-2">&gt;</span>
-            <Link to="/services" className="hover:text-primary transition-colors">Pest Control Services</Link>
+            <Link to="/services" className="hover:text-[#162957] transition-colors">Pest Control Services</Link>
             <span className="mx-2">&gt;</span>
             <span>Rodents Control</span>
           </motion.nav>
@@ -159,9 +154,9 @@ const Rodents = () => {
               className="rounded-lg overflow-hidden"
             >
               <img
-                src="/images/services/rodents/characteristics.jpg"
+                src="/images/controls/rodent.jpg"
                 alt="Rodent Characteristics"
-                className="w-full h-full object-cover"
+                className="w-80 h-full object-cover"
               />
             </motion.div>
 
@@ -187,7 +182,7 @@ const Rodents = () => {
           >
             <button
               onClick={() => setIsTableOpen(!isTableOpen)}
-              className="w-full bg-primary text-white p-4 rounded-lg flex justify-between items-center"
+              className="w-full bg-[#162957] text-white p-4 rounded-lg flex justify-between items-center"
             >
               <span className="text-xl font-bold">Table of Contents</span>
               <ChevronDown
@@ -206,7 +201,7 @@ const Rodents = () => {
                     <div key={item.id}>
                       <button
                         onClick={() => document.getElementById(item.id)?.scrollIntoView({ behavior: 'smooth' })}
-                        className="text-left w-full hover:text-primary transition-colors"
+                        className="text-left w-full hover:text-[#162957] transition-colors"
                       >
                         {item.title}
                       </button>

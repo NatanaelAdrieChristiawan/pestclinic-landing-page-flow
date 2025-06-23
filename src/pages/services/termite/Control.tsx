@@ -14,8 +14,40 @@ const TermiteTreatment = () => {
 
   const renderContent = () => (
     <div className="space-y-12">
+      {/* Header with Navigation */}
+      <motion.header
+        className="relative w-full h-48"
+        initial={{ opacity: 0, scale: 1.05 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1, ease: 'easeOut' }}
+      >
+        <motion.img
+          src="/images/slider/clean.png"
+          alt="Termite Control Banner"
+          className="absolute inset-0 w-full h-full object-cover"
+          initial={{ scale: 1.1 }}
+          animate={{ scale: 1 }}
+          transition={{ duration: 1.2, ease: 'easeOut' }}
+        />
+        <div className="absolute inset-0 bg-black bg-opacity-50" />
+        <div className="relative z-10 flex items-end w-full h-full pb-6 px-6">
+          <motion.nav
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5, duration: 0.6, ease: 'easeOut' }}
+            className="text-white text-lg"
+          >
+            <Link to="/" className="hover:text-[#162957] transition-colors">Home</Link>
+            <span className="mx-2">&gt;</span>
+            <Link to="/services" className="hover:text-[#162957] transition-colors">Pest Control Services</Link>
+            <span className="mx-2">&gt;</span>
+            <span>Termite Control</span>
+          </motion.nav>
+        </div>
+      </motion.header>
+
       {/* Hero Section with Main Title */}
-      <section className="relative h-[400px] bg-cover bg-center" style={{ backgroundImage: "url('/images/services/termite/hero-bg.jpg')" }}>
+      <section className="relative h-[400px] bg-cover bg-center" style={{ backgroundImage: "url('/images/slider/control.png')" }}>
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 container mx-auto px-4 h-full flex flex-col justify-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
@@ -37,7 +69,7 @@ const TermiteTreatment = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Expert Service Card */}
-            <div className="bg-red-800 p-8 text-white rounded-lg shadow-xl">
+            <div className="bg-[#162957] p-8 text-white rounded-lg shadow-xl">
               <h3 className="text-xl font-bold mb-4">Expert Termite Control</h3>
               <p className="text-sm leading-relaxed">
                 Proud to be one of the few termite companies in Singapore licensed to carry termiticide. Our specialists are trained in termite biology, prevention, and eco-friendly solutions. We ensure long-term protection from termite attacks.
@@ -48,7 +80,7 @@ const TermiteTreatment = () => {
             </div>
 
             {/* Affordable Service Card */}
-            <div className="bg-red-700 p-8 text-white rounded-lg shadow-xl">
+            <div className="bg-[#162957] p-8 text-white rounded-lg shadow-xl">
               <h3 className="text-xl font-bold mb-4">Affordable Termite Control Service</h3>
               <p className="text-sm leading-relaxed">
                 Curious about the termite control cost in Singapore? While you may find various termite companies offering treatment tips, We offer competitive pricing with fantastic results & service without compromising.
@@ -59,7 +91,7 @@ const TermiteTreatment = () => {
             </div>
 
             {/* Effective Service Card */}
-            <div className="bg-red-600 p-8 text-white rounded-lg shadow-xl">
+            <div className="bg-[#162957] p-8 text-white rounded-lg shadow-xl">
               <h3 className="text-xl font-bold mb-4">Effective Termite Control at your Door Step</h3>
               <p className="text-sm leading-relaxed">
                 Protect your home from termites with our expert Singapore termite control company. Using technology and expertise, we handle termite colonies effectively while being safe for your family.
@@ -73,11 +105,11 @@ const TermiteTreatment = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-primary">
+      <section className="py-16 bg-[#162957]">
         <div className="container mx-auto px-4 text-center text-white">
           <h2 className="text-3xl font-bold mb-6">Ready to Protect Your Property?</h2>
           <p className="mb-8 text-lg">Contact us today for professional termite control services</p>
-          <button className="bg-white text-primary px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+          <button className="bg-white text-[#162957] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
             Get Free Consultation
           </button>
         </div>

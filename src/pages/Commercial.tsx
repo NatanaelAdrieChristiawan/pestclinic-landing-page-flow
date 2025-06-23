@@ -99,7 +99,7 @@ const Commercial = () => {
             className="text-center mb-8"
           >
             <h1 className="text-4xl font-bold text-gray-900 mb-4">
-              Commercial / Industrial Pest Control Services In Singapore
+              Commercial / Industrial Pest Control Services In Kuala Lumpur
             </h1>
             <p className="text-xl text-gray-600">
               Professional solutions for all business sectors
@@ -219,7 +219,7 @@ const Commercial = () => {
                   transition={{ delay: index * 0.1 }}
                   className="flex items-start gap-4"
                 >
-                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary flex items-center justify-center mt-1">
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#162957] flex items-center justify-center mt-1">
                     <span className="text-white text-sm font-bold">{index + 1}</span>
                   </div>
                   <p className="text-lg text-gray-600 leading-relaxed">{item.tip}</p>
@@ -348,7 +348,7 @@ const Commercial = () => {
             >
               <a 
                 href="/contact"
-                className="inline-block bg-primary text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-primary/90 transition-colors"
+                className="inline-block bg-[#162957] text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-[#162957]/80 transition-colors"
               >
                 Get an inspection
               </a>

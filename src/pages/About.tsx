@@ -56,7 +56,7 @@ const About = () => {
             transition={{ delay: 0.5, duration: 0.6, ease: 'easeOut' }}
             className="text-white text-lg"
           >
-            <Link to="/" className="hover:text-primary transition-colors">Home</Link>
+            <Link to="/" className="hover:text-[#162957] transition-colors">Home</Link>
             <span className="mx-2">&gt;</span>
             <span>About Us</span>
           </motion.nav>
@@ -97,7 +97,7 @@ const About = () => {
                   >
                     <span className="font-medium">{item.title}</span>
                     {activeAccordion === item.title ? (
-                      <Minus className="h-5 w-5 text-primary" />
+                      <Minus className="h-5 w-5 text-[#162957]" />
                     ) : (
                       <Plus className="h-5 w-5 text-gray-400" />
                     )}
@@ -143,7 +143,7 @@ const About = () => {
                   <div key={index} className="space-y-2">
                     <div className="flex justify-between">
                       <span className="text-gray-700">{metric.label}</span>
-                      <span className="text-primary font-medium">{metric.value}%</span>
+                      <span className="text-[#162957] font-medium">{metric.value}%</span>
                     </div>
                     <motion.div
                       className="h-2 bg-gray-200 rounded-full"
@@ -152,7 +152,7 @@ const About = () => {
                       viewport={{ once: true }}
                     >
                       <motion.div
-                        className="h-full bg-primary rounded-full"
+                        className="h-full bg-[#162957] rounded-full"
                         initial={{ width: 0 }}
                         whileInView={{ width: `${metric.value}%` }}
                         viewport={{ once: true }}

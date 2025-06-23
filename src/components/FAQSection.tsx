@@ -56,7 +56,7 @@ const FAQSection = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h3 className="text-primary font-semibold text-lg mb-2">FAQ</h3>
+          <h3 className="text-[#162957] font-semibold text-lg mb-2">FAQ</h3>
           <h2 className="text-4xl font-bold text-foreground mb-4">
             Frequently Asked Questions
           </h2>
@@ -83,7 +83,7 @@ const FAQSection = () => {
                   value={`item-${index}`} 
                   className="bg-background border border-border rounded-xl px-6 py-2 hover:shadow-md transition-shadow duration-300"
                 >
-                  <AccordionTrigger className="text-left text-foreground font-semibold hover:text-primary transition-colors duration-300 hover:no-underline">
+                  <AccordionTrigger className="text-left text-foreground font-semibold hover:text-[#162957] transition-colors duration-300 hover:no-underline">
                     {faq.question}
                   </AccordionTrigger>
                   <AccordionContent className="text-muted-foreground leading-relaxed pt-2 pb-4">
@@ -104,7 +104,7 @@ const FAQSection = () => {
           <p className="text-muted-foreground mb-6">
             Still have questions? We're here to help!
           </p>
-          <button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
+          <button className="bg-[#162957] hover:bg-[#162957]/90 text-primary-foreground px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
             Contact Our Experts
           </button>
         </motion.div>

@@ -81,7 +81,7 @@ const HeroSlider = () => {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.8 }}
-                className="text-2xl md:text-3xl font-semibold mb-6 text-primary"
+                className="text-2xl md:text-3xl font-semibold mb-6 text-[#8299bd]"
               >
                 {slides[currentSlide].subtitle}
               </motion.h2>
@@ -101,10 +101,14 @@ const HeroSlider = () => {
                 transition={{ delay: 0.9, duration: 0.8 }}
                 className="space-x-4"
               >
-                <button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
+                <button
+                  className="bg-[#162957] hover:bg-[#162957]/90 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+                >
                   Get Free Consultation
                 </button>
-                <button className="border-2 border-white text-white hover:bg-white hover:text-foreground px-8 py-3 rounded-lg font-semibold transition-all duration-300">
+                <button
+                  className="border-2 border-[#162957] text-white hover:bg-[#162957] hover:text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300"
+                >
                   Learn More
                 </button>
               </motion.div>
@@ -120,7 +124,7 @@ const HeroSlider = () => {
             key={index}
             onClick={() => goToSlide(index)}
             className={`w-3 h-3 rounded-full transition-all duration-300 ${
-              index === currentSlide ? 'bg-primary' : 'bg-white bg-opacity-50'
+              index === currentSlide ? 'bg-[#8299bd]' : 'bg-white bg-opacity-50'
             }`}
           />
         ))}

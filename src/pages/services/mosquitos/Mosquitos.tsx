@@ -19,7 +19,7 @@ const Mosquitos = () => {
   const tableOfContents = [
     { title: '1. Quick Facts on Mosquito', id: 'quick-facts' },
     { 
-      title: '2. What are the Dangers Posed By Mosquitoes in Singapore?', 
+      title: '2. What are the Dangers Posed By Mosquitoes in Kuala Lumpur?', 
       id: 'dangers',
       subItems: [
         { title: '2.1. Dengue', id: 'dengue' },
@@ -41,7 +41,7 @@ const Mosquitos = () => {
     },
     { title: '4. Sign of Mosquito Infestation', id: 'signs' },
     {
-      title: '5. What are the Mosquitos Pest Control Methods in Singapore?',
+      title: '5. What are the Mosquitos Pest Control Methods in Kuala Lumpur?',
       id: 'methods',
       subItems: [
         { title: '5.1. Adult Mosquito Control', id: 'adult-control' },
@@ -51,7 +51,7 @@ const Mosquitos = () => {
     },
     { title: '6. Mosquito Control Prevention Tips', id: 'prevention' },
     { title: '7. How To Prevent From Getting Bitten By Mosquitoes?', id: 'bites-prevention' },
-    { title: '8. PestClinic – Professional and Trusted Mosquito Control Services in Singapore', id: 'services' },
+    { title: '8. PestClinic – Professional and Trusted Mosquito Control Services in Kuala Lumpur', id: 'services' },
     { title: '9. Engage PestClinic to help you get rid of mosquitos now', id: 'engage' },
     {
       title: '10. Frequently Asked Questions',
@@ -103,42 +103,72 @@ const Mosquitos = () => {
         </div>
       </section>
 
-      {/* Dangers Section */}
-      <section id="dangers" className="scroll-mt-24">
-        <h2 className="text-2xl font-bold mb-6">What are the Dangers Posed By Mosquitoes in Singapore?</h2>
-        <div className="space-y-8">
-          <div id="dengue" className="scroll-mt-24">
-            <h3 className="text-xl font-semibold text-primary mb-4">Dengue</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <img 
-                src="/images/services/mosquitos/dengue.jpg" 
-                alt="Dengue Fever"
-                className="rounded-lg w-full"
-              />
-              <div className="prose max-w-none">
-                <p>Dengue fever is a serious viral infection transmitted by Aedes mosquitoes. Symptoms include high fever, severe headache, and joint pain.</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Similar blocks for Malaria, Chikungunya, and Zika */}
-        </div>
-      </section>
-
       {/* Species Section */}
       <section id="species" className="scroll-mt-24">
         <h2 className="text-2xl font-bold mb-6">Common Mosquito Species</h2>
         <div className="space-y-8">
           <div id="aedes-aegypti" className="scroll-mt-24">
-            <h3 className="text-xl font-semibold text-primary mb-4">Aedes Aegypti</h3>
+            <h3 className="text-xl font-semibold text-[#162957] mb-4">Aedes Aegypti</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <img 
-                src="/images/services/mosquitos/aedes-aegypti.jpg" 
+                src="/images/controls/species/aedes.png" 
                 alt="Aedes Aegypti"
-                className="rounded-lg w-full"
+                className="rounded-lg w-60"
               />
               <div className="prose max-w-none">
-                <p>Primary vector for dengue fever in Singapore. Identified by distinctive white markings on legs and thorax.</p>
+                <p>Otherwise known as the yellow fever mosquito, the Aedes Aegypti originated in Africa but can now be found in tropical, subtropical and temperate regions, Singapore included. Its white markings on its legs are characteristic of the said insect. Whilst it generally takes up to 8 to 10 days to fully mature, its incubation period may shorten if the temperatures increase. This is especially concerning as these mosquitoes are vectors for transmitting several tropical fevers, such as yellow fever and dengue.</p>
+              </div>
+            </div>
+          </div>
+          <div id="aedes-albopictus" className="scroll-mt-24">
+            <h3 className="text-xl font-semibold text-[#162957] mb-4">Aedes Albopictus</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <img 
+                src="/images/controls/species/aedes-albopictus.png"
+                alt="Aedes Aegypti"
+                className="rounded-lg w-60"
+              />
+              <div className="prose max-w-none">
+                <p>Also known as the Asian tiger mosquito, the Aedes Albopictus is endemic to southeast Asia. Similar to the Aedes Aegypti, the Aedes Albopictus is a vector for the transmission of many viral pathogens, such as Chikungunya and dengue fever. Rather than living in the wetlands, these mosquitoes often live with humans as it has managed to successfully adapt to our domestic environment in the suburban and urban areas.</p>
+              </div>
+            </div>
+          </div>
+          <div id="anopheles-maculatus" className="scroll-mt-24">
+            <h3 className="text-xl font-semibold text-[#162957] mb-4">Anopheles Maculatus</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <img 
+                src="/images/controls/species/anopheles-maculatus.png" 
+                alt="Aedes Aegypti"
+                className="rounded-lg w-60"
+              />
+              <div className="prose max-w-none">
+                <p>Previously considered the only member of the Maculatus species, the Anopheles Maculatus is a vector of Malaria in countries in the Malay Archipelago. It prefers to breed in water pockets formed on the bank of rivers and waterfalls.</p>
+              </div>
+            </div>
+          </div>
+          <div id="anopheles-sundaicus" className="scroll-mt-24">
+            <h3 className="text-xl font-semibold text-[#162957] mb-4">Anopheles Sundaicus</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <img 
+                src="/images/controls/species/anopheles-sundaicus.png" 
+                alt="Aedes Aegypti"
+                className="rounded-lg w-60"
+              />
+              <div className="prose max-w-none">
+                <p>Similarly, the Anopheles Sundaicus are vectors of Malaria in the Malay Archipelago. Since they are predominant coastal species, these pesky pests breed in both fresh and saline water and are typically found in fish and prawn ponds near the coast.</p>
+              </div>
+            </div>
+          </div>
+          <div id="culex" className="scroll-mt-24">
+            <h3 className="text-xl font-semibold text-[#162957] mb-4">Culex Quinquefasciatus</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <img 
+                src="/images/controls/species/culex.png" 
+                alt="Aedes Aegypti"
+                className="rounded-lg w-60"
+              />
+              <div className="prose max-w-none">
+                <p>Largely found in the tropics and sub-tropics, the Culex Quinquefasciatus is an urban mosquito found in close association with man, especially in urban areas. These mosquitoes feed at night and are attracted to lights. They prefer organically polluted waters such as ground puddles and small receptacles containing contaminated water. and drains with sullage water. The Culex Quinquefasciatus are also vectors of several pathogens, including Lymphatic Filariasis, Zika virus, and West Nile virus.</p>
               </div>
             </div>
           </div>
@@ -149,10 +179,10 @@ const Mosquitos = () => {
 
       {/* Control Methods Section */}
       <section id="methods" className="scroll-mt-24">
-        <h2 className="text-2xl font-bold mb-6">What are the Mosquitos Pest Control Methods in Singapore?</h2>
+        <h2 className="text-2xl font-bold mb-6">What are the Mosquitos Pest Control Methods in Kuala Lumpur?</h2>
         <div className="space-y-8">
           <div id="adult-control" className="scroll-mt-24">
-            <h3 className="text-xl font-semibold text-primary mb-4">Adult Mosquito Control</h3>
+            <h3 className="text-xl font-semibold text-[#162957] mb-4">Adult Mosquito Control</h3>
             <div className="prose max-w-none">
               <p>Professional treatment targeting adult mosquitoes using approved insecticides and fogging methods.</p>
             </div>
@@ -177,10 +207,10 @@ const Mosquitos = () => {
 
       {/* Services Section */}
       <section id="services" className="scroll-mt-24">
-        <h2 className="text-2xl font-bold mb-6">PestClinic – Professional and Trusted Mosquito Control Services in Singapore</h2>
+        <h2 className="text-2xl font-bold mb-6">PestClinic – Professional and Trusted Mosquito Control Services in Kuala Lumpur</h2>
         <div className="prose max-w-none text-gray-700">
           <p>
-            At PestClinic, we provide comprehensive mosquito control solutions using integrated pest management approaches. 
+            At serval pest , we provide comprehensive mosquito control solutions using integrated pest management approaches. 
             Our experienced technicians will:
           </p>
           <ul>
@@ -213,7 +243,7 @@ const Mosquitos = () => {
         transition={{ duration: 1, ease: 'easeOut' }}
       >
         <motion.img
-          src="/images/slider/mosquitos-banner.jpg"
+          src="/images/controls/mosquitoes.jpeg"
           alt="Mosquito Control Services Banner"
           className="absolute inset-0 w-full h-full object-cover"
           initial={{ scale: 1.1 }}
@@ -228,9 +258,9 @@ const Mosquitos = () => {
             transition={{ delay: 0.5, duration: 0.6, ease: 'easeOut' }}
             className="text-white text-lg"
           >
-            <Link to="/" className="hover:text-primary transition-colors">Home</Link>
+            <Link to="/" className="hover:text-[#162957] transition-colors">Home</Link>
             <span className="mx-2">&gt;</span>
-            <Link to="/services" className="hover:text-primary transition-colors">Pest Control Services</Link>
+            <Link to="/services" className="hover:text-[#162957] transition-colors">Pest Control Services</Link>
             <span className="mx-2">&gt;</span>
             <span>Mosquito Control</span>
           </motion.nav>
@@ -247,9 +277,9 @@ const Mosquitos = () => {
               className="rounded-lg overflow-hidden"
             >
               <img
-                src="/images/services/mosquitos/characteristics.jpg"
+                src="/images/controls/mosquitoes.jpeg"
                 alt="Mosquito Characteristics"
-                className="w-full h-full object-cover"
+                className="w-90 h-full object-cover"
               />
             </motion.div>
 
@@ -285,7 +315,7 @@ const Mosquitos = () => {
           >
             <button
               onClick={() => setIsTableOpen(!isTableOpen)}
-              className="w-full bg-primary text-white p-4 rounded-lg flex justify-between items-center"
+              className="w-full bg-[#162957] text-white p-4 rounded-lg flex justify-between items-center"
             >
               <span className="text-xl font-bold">Table of Contents</span>
               <ChevronDown
@@ -304,7 +334,7 @@ const Mosquitos = () => {
                     <div key={item.id} className="space-y-2">
                       <button
                         onClick={() => scrollToSection(item.id)}
-                        className="text-left w-full hover:text-primary transition-colors"
+                        className="text-left w-full hover:text-[#162957] transition-colors"
                       >
                         {item.title}
                       </button>
@@ -314,7 +344,7 @@ const Mosquitos = () => {
                             <button
                               key={subItem.id}
                               onClick={() => scrollToSection(subItem.id)}
-                              className="text-left w-full text-gray-600 hover:text-primary transition-colors"
+                              className="text-left w-full text-gray-600 hover:text-[#162957] transition-colors"
                             >
                               {subItem.title}
                             </button>

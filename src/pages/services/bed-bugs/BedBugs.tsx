@@ -128,8 +128,11 @@ const BedBugs = () => {
     <div className="space-y-12">
       {/* Main sections */}
       <section id="looking-for" className="scroll-mt-24">
-        <h2 className="text-2xl font-bold mb-6">Looking for Bed Bug Pest Control in Singapore?</h2>
-        <div className="prose max-w-none">
+        <h2 className="text-2xl font-bold mb-6">Looking for Bed Bug Pest Control in Kuala Lumpur?</h2>
+          <div className="prose max-w-none text-gray-700">
+          <p>
+            At PestClinic, we specialise in bed bug pest control services in Singapore at competitive prices. Our team of skilled technicians adopt effective treatment methods to locate and control bed bug infestations, preventing further damage and restoring the hygiene and comfort of your property. Trust us to deliver the best bed bug pest control in Singapore at a reasonable price, and say goodbye to bed bugs when you engage in our bed bug control solutions today.
+          </p>
           {/* Add content here */}
         </div>
       </section>
@@ -141,12 +144,13 @@ const BedBugs = () => {
             <h3 className="text-xl font-semibold mb-4">Exoskeletons of Bed Bugs</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <img 
-                src="/images/services/bed-bugs/exoskeletons.jpg" 
+                src="/images/controls/exos.png" 
                 alt="Bed Bug Exoskeletons"
                 className="rounded-lg w-full"
               />
               <div className="prose max-w-none">
                 {/* Add content here */}
+                <p>Bed bugs moult and grow, losing their skins (or exoskeletons) along the way. Often translucent, these exoskeletons may look like empty shells of the bugs. You may commonly find them in areas where bed bugs like to hide, including the crevices of your furniture, along the edges of your bedding, or in the seams of your mattress. You can gauge the extent of the infestation by the number of exoskeletons you come across. Should you notice a growing number of exoskeletons, the chances are that the infestation is becoming worse, and bed bugs are continuing to grow and reproduce.</p>
               </div>
             </div>
           </div>
@@ -155,11 +159,12 @@ const BedBugs = () => {
             <h3 className="text-xl font-semibold mb-4">Live bed bugs on your mattresses and sheets</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <img 
-                src="/images/services/bed-bugs/live-bugs.jpg" 
+                src="/images/controls/livebed.png" 
                 alt="Live Bed Bugs"
                 className="rounded-lg w-full"
               />
               <div className="prose max-w-none">
+                <p>One of the easiest ways to tell if you have a bed bug infestation is to find live bed bugs on your mattresses and bed sheets. These small insects, which resemble apple seeds in size, are often visible to the naked eye. Bed bugs emerge from their hiding places to become more active at night, feeding on the blood of their hosts. If you notice live bed bugs crawling on your sheets, mattress, or other surfaces, it is a clear indication that there is an infestation present in the home</p>
                 {/* Add content here */}
               </div>
             </div>
@@ -169,11 +174,12 @@ const BedBugs = () => {
             <h3 className="text-xl font-semibold mb-4">Rust–coloured spots from their bloody faecal material that they excrete after feeding</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <img 
-                src="/images/services/bed-bugs/live-bugs.jpg" 
+                src="/images/controls/spots.png" 
                 alt="Live Bed Bugs"
                 className="rounded-lg w-full"
               />
               <div className="prose max-w-none">
+                <p>After consuming blood, bed bugs produce waste that appears as tiny, rust-coloured stains on mattresses, furniture, and bedding. These spots may indicate the presence of bed bugs, especially if they appear along seams or in clusters – common places for bed bugs to hide. When touched, the spots may also smear, which might be a very clear sign of their source.</p>
                 {/* Add content here */}
               </div>
             </div>
@@ -183,11 +189,12 @@ const BedBugs = () => {
             <h3 className="text-xl font-semibold mb-4">A musty and sweet odour</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <img 
-                src="/images/services/bed-bugs/live-bugs.jpg" 
+                src="/images/controls/odour.png" 
                 alt="Live Bed Bugs"
                 className="rounded-lg w-full"
               />
               <div className="prose max-w-none">
+                <p>Scent glands on bed bugs provide a unique musty odour that can be particularly detectable in places with a heavy infestation. Even if you don’t see any bed bugs, the smell can still be recognised and is frequently characterised as sweet or sickly-sweet. Bed bugs generate pheromones, chemicals they use to communicate with one another and the primary reason for the musty odour. In essence, the pheromones are a way for bed bugs to mark their territory, draw other bed bugs to a specific area, or signal one another. The intensity of the odour can be a sign of how severe the infestation is. The smell in strongly infested places can be overpowering and very repulsive. However, with less severe infestations, the smell could be quite faint and challenging to detect.</p>
                 {/* Add content here */}
               </div>
             </div>
@@ -197,11 +204,12 @@ const BedBugs = () => {
             <h3 className="text-xl font-semibold mb-4">Bites that come in straight lines or tight clusters</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <img 
-                src="/images/services/bed-bugs/live-bugs.jpg" 
+                src="/images/controls/bites.png" 
                 alt="Live Bed Bugs"
                 className="rounded-lg w-full"
               />
               <div className="prose max-w-none">
+                <p>The majority of the time, bed bug bites are painless and may not be spotted right away. However, they can turn into itchy welts that can be arranged in a line or tight clusters. The linear feeding habits of bed bugs – which frequently bite numerous times in a row – lead to the straight-line or cluster pattern of bites. It is important to note that not everyone experiences a visible reaction to bed bug bites; in fact, some people may not experience any apparent reaction at all.</p>
                 {/* Add content here */}
               </div>
             </div>
@@ -223,20 +231,12 @@ const BedBugs = () => {
 
   const renderPestControlMethods = () => (
     <section id="methods" className="scroll-mt-24 space-y-8">
-      <h2 className="text-2xl font-bold mb-6">What are the Bed Bugs Pest Control Methods in Singapore?</h2>
+      <h2 className="text-2xl font-bold mb-6">What are the Bed Bugs Pest Control Methods in Kuala Lumpur?</h2>
       
-      {/* Add logo/banner image */}
-      <div className="w-full mb-8">
-        <img 
-          src="/images/services/bed-bugs/methods-banner.jpg"
-          alt="Bed Bug Control Methods"
-          className="w-full rounded-lg"
-        />
-      </div>
 
       {/* Inspection Method */}
       <div id="inspection" className="scroll-mt-24 space-y-4">
-        <h3 className="text-xl font-semibold text-primary">Inspection</h3>
+        <h3 className="text-xl font-semibold text-[#162957]">Inspection</h3>
         <p className="text-gray-700 leading-relaxed">
           A thorough inspection of the infested areas is conducted to determine the extent of the infestation, identify the locations where bed bugs are hiding, and assess any contributing factors.
         </p>
@@ -244,7 +244,7 @@ const BedBugs = () => {
 
       {/* Pesticide Sprays Method */}
       <div id="sprays" className="scroll-mt-24 space-y-4">
-        <h3 className="text-xl font-semibold text-primary">Pesticide Sprays</h3>
+        <h3 className="text-xl font-semibold text-[#162957]">Pesticide Sprays</h3>
         <p className="text-gray-700 leading-relaxed">
           Residual pesticide sprays that are specifically designed for bed bug control are applied to areas of our recommended interval where bed bugs are likely to hide, including mattresses, bed frames, skirting, cracks, electrical conduits etc. The pesticides have a residual effect, meaning they continue to work for an extended period, killing bed bugs that come into contact with the treated surfaces.
         </p>
@@ -252,7 +252,7 @@ const BedBugs = () => {
 
       {/* Mist Fumigation Method */}
       <div id="fumigation" className="scroll-mt-24 space-y-4">
-        <h3 className="text-xl font-semibold text-primary">Mist Fumigation</h3>
+        <h3 className="text-xl font-semibold text-[#162957]">Mist Fumigation</h3>
         <p className="text-gray-700 leading-relaxed">
           Mist fumigation involves the application of a fine mist of insecticide into the air. The mist contains tiny particles of insecticide that can reach into cracks, crevices, and other hiding places where bed bugs may be present. This method helps to kill bed bugs that are difficult to access with other treatment methods.
         </p>
@@ -260,7 +260,7 @@ const BedBugs = () => {
 
       {/* Vacuuming Method */}
       <div id="vacuuming" className="scroll-mt-24 space-y-4">
-        <h3 className="text-xl font-semibold text-primary">Vacuuming</h3>
+        <h3 className="text-xl font-semibold text-[#162957]">Vacuuming</h3>
         <p className="text-gray-700 leading-relaxed">
           Vacuuming is employed to physically remove bed bugs, eggs, and nymphs from infested areas. It helps to reduce the population and eliminate visible bugs.
         </p>
@@ -279,17 +279,17 @@ const BedBugs = () => {
       {/* Treatment Images Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
         <img 
-          src="/images/services/bed-bugs/treatment-1.jpg"
+          src="/images/services/treatment1.png"
           alt="Bed Bug Treatment Process 1"
           className="w-full rounded-lg"
         />
         <img 
-          src="/images/services/bed-bugs/treatment-2.jpg"
+          src="/images/services/treatment2.png"
           alt="Bed Bug Treatment Process 2"
           className="w-full rounded-lg"
         />
         <img 
-          src="/images/services/bed-bugs/treatment-3.jpg"
+          src="/images/services/treatment3.png"
           alt="Bed Bug Treatment Process 3"
           className="w-full rounded-lg"
         />
@@ -327,21 +327,21 @@ const BedBugs = () => {
           </p>
 
           <div id="mental-health" className="scroll-mt-24 mb-8">
-            <h3 className="text-xl font-semibold text-primary mb-3">Mental health impact</h3>
+            <h3 className="text-xl font-semibold text-[#162957] mb-3">Mental health impact</h3>
             <p className="text-gray-700">
               The anxiety and stress brought on by a bed bug infestation can drastically impact a person's mental health. An infestation of bed bugs can disrupt sleep, leading to irritability, fatigue, and difficulty concentrating. Additionally, it might cause feelings of embarrassment, loneliness, and stigma.
             </p>
           </div>
 
           <div id="property-damage" className="scroll-mt-24 mb-8">
-            <h3 className="text-xl font-semibold text-primary mb-3">Damage to property</h3>
+            <h3 className="text-xl font-semibold text-[#162957] mb-3">Damage to property</h3>
             <p className="text-gray-700">
               Unlike termites and rats, bed bugs do not harm the structure of a building, but they can damage the property's aesthetics. Blood flecks and bed bug droppings can be seen all throughout a strongly infested property, including on the mattress, bed frames, and walls. If the stains cannot be removed, owners will need to replace the items. Moreover, the walls may also need to be repainted, which can also be expensive.
             </p>
           </div>
 
           <div id="allergic" className="scroll-mt-24">
-            <h3 className="text-xl font-semibold text-primary mb-3">Allergic reactions</h3>
+            <h3 className="text-xl font-semibold text-[#162957] mb-3">Allergic reactions</h3>
             <p className="text-gray-700">
               Bed bug bites do not cause danger to humans. Some individuals don't even respond to the bites at all. Nonetheless, those who develop allergic reactions to bed bug bites may experience excruciating swelling or severe itching in the area of the bites. In this case, seeking medical help will be necessary to reduce allergy symptoms.
             </p>
@@ -460,7 +460,7 @@ const BedBugs = () => {
         transition={{ duration: 1, ease: 'easeOut' }}
       >
         <motion.img
-          src="/images/slider/bed-bugs-banner.jpg"
+          src="/images/controls/bedbugs.jpg"
           alt="Bed Bugs Control Services Banner"
           className="absolute inset-0 w-full h-full object-cover"
           initial={{ scale: 1.1 }}
@@ -494,9 +494,9 @@ const BedBugs = () => {
               className="rounded-lg overflow-hidden"
             >
               <img
-                src="/images/services/bed-bugs/characteristics.jpg"
+                src="/images/controls/bedbugs.png"
                 alt="Bed Bug Characteristics"
-                className="w-full h-full object-cover"
+                className="w-60 h-90 object-cover"
               />
             </motion.div>
 
@@ -523,7 +523,7 @@ const BedBugs = () => {
           >
             <button
               onClick={() => setIsTableOpen(!isTableOpen)}
-              className="w-full bg-primary text-white p-4 rounded-lg flex justify-between items-center"
+              className="w-full bg-[#162957] text-white p-4 rounded-lg flex justify-between items-center"
             >
               <span className="text-xl font-bold">Table of Contents</span>
               <ChevronDown
@@ -542,7 +542,7 @@ const BedBugs = () => {
                     <div key={item.id} className="space-y-2">
                       <button
                         onClick={() => scrollToSection(item.id)}
-                        className="text-left w-full hover:text-primary transition-colors"
+                        className="text-left w-full hover:text-[#162957] transition-colors"
                       >
                         {item.title}
                       </button>
@@ -552,7 +552,7 @@ const BedBugs = () => {
                             <button
                               key={subItem.id}
                               onClick={() => scrollToSection(subItem.id)}
-                              className="text-left w-full text-gray-600 hover:text-primary transition-colors"
+                              className="text-left w-full text-gray-600 hover:text-[#162957] transition-colors"
                             >
                               {subItem.title}
                             </button>

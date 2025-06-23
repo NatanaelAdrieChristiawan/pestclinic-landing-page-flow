@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
+import { Link } from "react-router-dom";
 
 const AboutSection = () => {
   const ref = useRef(null);
@@ -23,7 +24,7 @@ const AboutSection = () => {
                 alt="Pest Control Professional"
                 className="w-full h-96 object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-tr from-[#162957]/20 to-transparent" />
             </div>
             
             {/* Floating Badge */}
@@ -31,7 +32,7 @@ const AboutSection = () => {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
               transition={{ delay: 0.5, duration: 0.6 }}
-              className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground p-6 rounded-2xl shadow-xl"
+              className="absolute -bottom-6 -right-6 bg-[#162957] text-primary-foreground p-6 rounded-2xl shadow-xl"
             >
               <div className="text-center">
                 <div className="text-3xl font-bold">15+</div>
@@ -52,9 +53,9 @@ const AboutSection = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                 transition={{ delay: 0.4, duration: 0.6 }}
-                className="text-primary font-semibold text-lg mb-2"
+                className="text-[#162957] font-semibold text-lg mb-2"
               >
-                About PestClinic
+                About Serval Pest Management
               </motion.h3>
               
               <motion.h2
@@ -73,7 +74,7 @@ const AboutSection = () => {
               transition={{ delay: 0.6, duration: 0.6 }}
               className="text-muted-foreground text-lg leading-relaxed"
             >
-              PestClinic is Singapore's premier pest control company, providing comprehensive 
+              Serval Pest Management is premier pest control company, providing comprehensive 
               pest management solutions for residential, commercial, and industrial properties. 
               With over 15 years of experience, we have successfully eliminated pest problems 
               for thousands of satisfied customers.
@@ -97,19 +98,19 @@ const AboutSection = () => {
               className="space-y-4"
             >
               <div className="flex items-center space-x-3">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
+                <div className="w-2 h-2 bg-[#162957] rounded-full"></div>
                 <span className="text-foreground font-medium">NEA Licensed & Certified Professionals</span>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
+                <div className="w-2 h-2 bg-[#162957] rounded-full"></div>
                 <span className="text-foreground font-medium">Eco-Friendly & Safe Treatment Methods</span>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
+                <div className="w-2 h-2 bg-[#162957] rounded-full"></div>
                 <span className="text-foreground font-medium">24/7 Emergency Response Available</span>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
+                <div className="w-2 h-2 bg-[#162957] rounded-full"></div>
                 <span className="text-foreground font-medium">100% Satisfaction Guarantee</span>
               </div>
             </motion.div>
@@ -120,9 +121,11 @@ const AboutSection = () => {
               transition={{ delay: 1, duration: 0.6 }}
               className="pt-4"
             >
-              <button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
-                Learn More About Us
-              </button>
+              <Link to="/about">
+                <button className="bg-[#162957] hover:bg-[#8299bd]/90 text-primary-foreground px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
+                  Learn More About Us
+                </button>
+              </Link>
             </motion.div>
           </motion.div>
         </div>
