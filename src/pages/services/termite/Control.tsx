@@ -51,7 +51,7 @@ const TermiteTreatment = () => {
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 container mx-auto px-4 h-full flex flex-col justify-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Top Termite Control Company in Singapore
+            Top Termite Control Company in Kuala Lumpur
           </h1>
           <p className="text-lg md:text-xl max-w-3xl">
             Termites are a common pest problem for many homeowners, causing damage to wooden structures and buildings, that costs money. Some common effects include hollow timber, mud tubes, termite droppings which if left untreated, could rage for years.
