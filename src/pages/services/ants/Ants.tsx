@@ -22,7 +22,7 @@ const Ants = () => {
     { title: '3. How to Get Rid of Ants?', id: 'get-rid' },
     { title: '4. How to Prevent Ants in the Home?', id: 'prevent' },
     {
-      title: '5. Common Ants in Singapore',
+      title: '5. Common Ants in Kuala Lumpur',
       id: 'common-ants',
       subItems: [
         { title: '5.1. Carpenter Ants', id: 'carpenter-ants' },
@@ -31,8 +31,8 @@ const Ants = () => {
         { title: '5.4. Pharaoh\'s Ants', id: 'pharaoh-ants' }
       ]
     },
-    { title: '6. PestClinic – Professional and Trusted Ant Control Services in Singapore', id: 'services' },
-    { title: '7. Engage PestClinic to help you get rid of ants now.', id: 'engage' },
+    { title: '6. Serval Integrated Pest Management SDN BHD – Professional and Trusted Ant Control Services in Kuala Lumpur', id: 'services' },
+    { title: '7. Engage Serval Integrated Pest Management SDN BHD to help you get rid of ants now.', id: 'engage' },
     {
       title: '8. Frequently Asked Questions About Ant Pest Control',
       id: 'faq',
@@ -71,7 +71,7 @@ const Ants = () => {
         <h2 className="text-2xl font-bold mb-6">Quick Facts on Ants</h2>
         <div className="prose max-w-none text-gray-700">
           <p>
-            As one of the most common pests in the household, ant control services are often called when signs of an ant infestation are present – and for a good reason. Ants strive in large colonies wherein each ant has its own specific role to fulfil, making ant pest control services in Singapore all the more imperative to get rid of these ants in large quantities. Worker ants work hard to protect the eggs, build and expand their nest and hunt, whilst the queen ant produces eggs to multiply the population. Contrary to popular belief, one colony is not limited to one queen – there can be more than one queen ant at any one time, and these queens can leave to produce more colonies.
+            As one of the most common pests in the household, ant control services are often called when signs of an ant infestation are present – and for a good reason. Ants strive in large colonies wherein each ant has its own specific role to fulfil, making ant pest control services all the more imperative to get rid of these ants in large quantities. Worker ants work hard to protect the eggs, build and expand their nest and hunt, whilst the queen ant produces eggs to multiply the population. Contrary to popular belief, one colony is not limited to one queen – there can be more than one queen ant at any one time, and these queens can leave to produce more colonies.
           </p>
           <p>
             Similar to other insects, they use their chemical sensing system, otherwise known as chemosense, to detect certain chemicals present in the air (even at low concentrations). If these chemicals hint at sugar and other foods, the nearby ants will head towards it whilst releasing a pheromone to alert the other ants in the colony to give their assistance. As such, if you have unsealed foods left out in the open or food crumbs lying on the ground, expect to see a handful of ants trying to move it in the next few hours.
@@ -112,7 +112,7 @@ const Ants = () => {
             While you may have a clean home, an ant infestation may persist. Given that ants are often in large numbers and can expand their colony rather quickly, what can you do if the signs of an ant infestation are present in your home? It is important to move swiftly at the first indication of a potential infestation to contain the ants and prevent further infestation.
           </p>
           <p>
-            At PestClinic, our team of experts possess the skills and experience to successfully remove these ants from your abode.
+            At Serval Integrated Pest Management SDN BHD, our team of experts possess the skills and experience to successfully remove these ants from your abode.
           </p>
         </div>
       </section>
@@ -200,20 +200,20 @@ const Ants = () => {
 
       {/* Services Section */}
       <section id="services" className="scroll-mt-24">
-        <h2 className="text-2xl font-bold mb-6">PestClinic – Professional and Trusted Ant Control Services in Kuala Lumpur</h2>
+        <h2 className="text-2xl font-bold mb-6">Serval Integrated Pest Management SDN BHD – Professional and Trusted Ant Control Services</h2>
         <div className="prose max-w-none text-gray-700">
           <p>
             While you may have a clean home, an ant infestation may persist. Given that ants are often in large numbers and can expand their colony rather quickly, what can you do if the signs of an ant infestation are present in your home? It is important to move swiftly at the first indication of a potential infestation to contain the ants and prevent further infestation.
           </p>
           <p>
-            At PestClinic, our team of experts possess the skills and experience to successfully remove these ants from your abode.
+            At Serval Integrated Pest Management, our team of experts possess the skills and experience to successfully remove these ants from your abode.
           </p>
         </div>
       </section>
 
       {/* Engage Section */}
       <section id="engage" className="scroll-mt-24">
-        <h2 className="text-2xl font-bold mb-6">Engage PestClinic to help you get rid of ants now.</h2>
+        <h2 className="text-2xl font-bold mb-6">Engage Serval Integrated Pest Management to help you get rid of ants now.</h2>
         <div className="prose max-w-none text-gray-700">
           <button className="bg-[#162957] text-white py-2 px-4 rounded mt-4">Get an inspection</button>
         </div>

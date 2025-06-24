@@ -59,7 +59,7 @@ const PortfolioGallery = () => {
         >
           <h3 className="text-[#162957] font-semibold text-lg mb-2">Our Work</h3>
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Comprehensive Pest Control in Singapore for Every Industry
+            Comprehensive Pest Control in Kuala Lumpur for Every Industry
           </h2>
           <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
             See our professional pest control work in action. From residential homes 

@@ -27,18 +27,7 @@ const AboutSection = () => {
               <div className="absolute inset-0 bg-gradient-to-tr from-[#162957]/20 to-transparent" />
             </div>
             
-            {/* Floating Badge */}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
-              transition={{ delay: 0.5, duration: 0.6 }}
-              className="absolute -bottom-6 -right-6 bg-[#162957] text-primary-foreground p-6 rounded-2xl shadow-xl"
-            >
-              <div className="text-center">
-                <div className="text-3xl font-bold">15+</div>
-                <div className="text-sm">Years Experience</div>
-              </div>
-            </motion.div>
+            
           </motion.div>
 
           {/* Right Side - Content */}
@@ -76,7 +65,7 @@ const AboutSection = () => {
             >
               Serval Pest Management is premier pest control company, providing comprehensive 
               pest management solutions for residential, commercial, and industrial properties. 
-              With over 15 years of experience, we have successfully eliminated pest problems 
+              With experience, we have successfully eliminated pest problems 
               for thousands of satisfied customers.
             </motion.p>
 
@@ -99,7 +88,7 @@ const AboutSection = () => {
             >
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-[#162957] rounded-full"></div>
-                <span className="text-foreground font-medium">NEA Licensed & Certified Professionals</span>
+                <span className="text-foreground font-medium">Licensed & Certified Professionals</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-[#162957] rounded-full"></div>

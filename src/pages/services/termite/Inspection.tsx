@@ -45,17 +45,17 @@ const TermiteControl = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Termite Control Introduction */}
           <section id="introduction" className="mb-12">
-            <h2 className="text-3xl font-bold mb-6">Professional Termite Inspection in Singapore</h2>
+            <h2 className="text-3xl font-bold mb-6">Professional Termite Inspection</h2>
             <p className="prose max-w-none text-gray-700">
-              Termites can cause severe and costly damage to your property before you even realise they’re there. At PestClinic, we provide advanced termite inspection in Singapore to detect infestations early and protect your property from structural damage. Our team uses state-of-the-art equipment to deliver precise and non-invasive inspections, ensuring the most effective termite control solutions.
+              Termites can cause severe and costly damage to your property before you even realise they’re there. We provide advanced termite inspection to detect infestations early and protect your property from structural damage. Our team uses state-of-the-art equipment to deliver precise and non-invasive inspections, ensuring the most effective termite control solutions.
             </p>
           </section>
 
           {/* Detection Methods Section */}
           <section id="detection-methods" className="mb-12">
-            <h2 className="text-2xl font-bold mb-6">Termite Inspection in Singapore: Our Detection Methods</h2>
+            <h2 className="text-2xl font-bold mb-6">Termite Inspection : Our Detection Methods</h2>
             <p className="prose max-w-none text-gray-700">
-              At PestClinic, we employ the latest termite detection methods to provide the most accurate and comprehensive inspections. Our advanced termite inspection techniques ensure early detection and effective prevention of termite damage.
+              We employ the latest termite detection methods to provide the most accurate and comprehensive inspections. Our advanced termite inspection techniques ensure early detection and effective prevention of termite damage.
             </p>
           </section>
 
@@ -82,7 +82,7 @@ const TermiteControl = () => {
           </section>
 
           <section id="thermography" className="mb-12">
-            <h3 className="text-xl font-semibold mb-4">2. Termite Detection Using PestClinic Thermography Inspection System</h3>
+            <h3 className="text-xl font-semibold mb-4">2. Termite Detection Using Thermography Inspection System</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <img 
                 src="/images/slider/thermo.png" 
@@ -106,7 +106,7 @@ const TermiteControl = () => {
           <section id="inspection-cost" className="mb-12">
             <h2 className="text-2xl font-bold mb-6">Termite Inspection Cost</h2>
             <p className="prose max-w-none text-gray-700">
-              The termite inspection cost can vary depending on the size of your property and the complexity of the infestation. At PestClinic, we offer competitive and transparent pricing for our termite inspection services in Singapore. We understand the importance of budget-friendly solutions and strive to provide excellent value for our professional services.
+              The termite inspection cost can vary depending on the size of your property and the complexity of the infestation. We offer competitive and transparent pricing for our termite inspection services. We understand the importance of budget-friendly solutions and strive to provide excellent value for our professional services.
             </p>
             <p className="mt-4">Get a Quote Today! Contact us for a customised quote based on your property’s needs. Our professional inspectors will provide a thorough assessment, and we’ll guide you through the next steps to protect your home or business from termite damage. We also ensure that the termite inspection cost is clearly explained so you’ll know exactly what to expect without any surprises.</p>
           </section>

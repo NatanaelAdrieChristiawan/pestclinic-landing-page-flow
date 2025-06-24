@@ -51,7 +51,7 @@ const TermiteTreatment = () => {
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 container mx-auto px-4 h-full flex flex-col justify-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Top Termite Control Company in Kuala Lumpur
+            Termite Control
           </h1>
           <p className="text-lg md:text-xl max-w-3xl">
             Termites are a common pest problem for many homeowners, causing damage to wooden structures and buildings, that costs money. Some common effects include hollow timber, mud tubes, termite droppings which if left untreated, could rage for years.
@@ -64,7 +64,7 @@ const TermiteTreatment = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8">Why Choose Us?</h2>
           <p className="text-center mb-12 text-gray-600 max-w-3xl mx-auto">
-            Our network includes the best termite control solutions in Singapore known for our efficiency, cutting-edge methods, and commitment to customer satisfaction. Whether you need regular inspection or immediate service activation, we've got you covered.
+            Our network includes the best termite control solutions known for our efficiency, cutting-edge methods, and commitment to customer satisfaction. Whether you need regular inspection or immediate service activation, we've got you covered.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -72,10 +72,10 @@ const TermiteTreatment = () => {
             <div className="bg-[#162957] p-8 text-white rounded-lg shadow-xl">
               <h3 className="text-xl font-bold mb-4">Expert Termite Control</h3>
               <p className="text-sm leading-relaxed">
-                Proud to be one of the few termite companies in Singapore licensed to carry termiticide. Our specialists are trained in termite biology, prevention, and eco-friendly solutions. We ensure long-term protection from termite attacks.
+                Our specialists are trained in termite biology, prevention, and eco-friendly solutions. We ensure long-term protection from termite attacks.
               </p>
               <p className="mt-4 text-sm leading-relaxed">
-                If you're looking to buy local termite control company in Singapore, you have to look. Our team is equipped to handle all types of termite species present in Singapore.
+                Our team is equipped to handle all types of termite species present.
               </p>
             </div>
 
@@ -83,7 +83,7 @@ const TermiteTreatment = () => {
             <div className="bg-[#162957] p-8 text-white rounded-lg shadow-xl">
               <h3 className="text-xl font-bold mb-4">Affordable Termite Control Service</h3>
               <p className="text-sm leading-relaxed">
-                Curious about the termite control cost in Singapore? While you may find various termite companies offering treatment tips, We offer competitive pricing with fantastic results & service without compromising.
+                Curious about the termite control cost? While you may find various termite companies offering treatment tips, We offer competitive pricing with fantastic results & service without compromising.
               </p>
               <p className="mt-4 text-sm leading-relaxed">
                 We understand that investing in termite control can be costly and burdensome, Our pricing is transparent and tailored to your specific needs.
@@ -94,7 +94,7 @@ const TermiteTreatment = () => {
             <div className="bg-[#162957] p-8 text-white rounded-lg shadow-xl">
               <h3 className="text-xl font-bold mb-4">Effective Termite Control at your Door Step</h3>
               <p className="text-sm leading-relaxed">
-                Protect your home from termites with our expert Singapore termite control company. Using technology and expertise, we handle termite colonies effectively while being safe for your family.
+                Protect your home from termites with our expert termite control. Using technology and expertise, we handle termite colonies effectively while being safe for your family.
               </p>
               <p className="mt-4 text-sm leading-relaxed">
                 Having a reliable partner in termite control is essential, especially for expensive fixtures caused by termite destruction. Worry no more.

@@ -25,7 +25,7 @@ const WhyChooseUs = () => {
                 transition={{ delay: 0.2, duration: 0.6 }}
                 className="text-[#162957] font-semibold text-lg mb-2"
               >
-                Why Choose PestClinic
+                Why Choose Serval Integrated Pest Management SDN BHD
               </motion.h3>
               
               <motion.h2
@@ -44,7 +44,7 @@ const WhyChooseUs = () => {
                 className="text-muted-foreground text-lg leading-relaxed"
               >
                 With over a decade of experience and thousands of satisfied customers, 
-                PestClinic stands as Kuala Lumpur's premier pest control solution provider.
+                Serval Integrated Pest Management SDN BHD stands as Kuala Lumpur's premier pest control solution provider.
               </motion.p>
             </div>
 
@@ -69,7 +69,7 @@ const WhyChooseUs = () => {
                 <div className="w-16 h-16 bg-[#162957]/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Award className="h-8 w-8 text-[#162957]" />
                 </div>
-                <h4 className="font-bold text-foreground mb-2">NEA Certified</h4>
+                <h4 className="font-bold text-foreground mb-2">Certified</h4>
                 <p className="text-muted-foreground text-sm">
                   Licensed professionals with proper certifications
                 </p>

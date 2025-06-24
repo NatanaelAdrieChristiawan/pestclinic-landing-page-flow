@@ -52,7 +52,7 @@ const AdvertisementBanner = () => {
             >
               <button className="bg-background text-[#162957] hover:bg-secondary px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center">
                 <PhoneCall className="h-5 w-5 mr-2" />
-                +65 1234 5678
+                +60 11-2344 8311
               </button>
               <button className="border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-[#162957] px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300">
                 WhatsApp Us
@@ -89,7 +89,7 @@ const AdvertisementBanner = () => {
           >
             <div className="relative">
               <img
-                src="/images/slider/adds.png"
+                src="/images/slider/HP1.jpg"
                 alt="Emergency Pest Control"
                 className="rounded-2xl shadow-2xl w-full"
               />

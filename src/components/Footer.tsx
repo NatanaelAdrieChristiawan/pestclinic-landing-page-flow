@@ -19,8 +19,8 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Logo & Address */}
         <div className="space-y-4">
-          <img src="/images/logo/serval.png " alt="PestBusters Logo" className="h-20 mb-2" />
-          <div className="text-xs leading-relaxed">
+          <img src="/images/logo/serval.png " alt="PestBusters Logo" className="h-28 w-100 mb-2" />
+          <div className="text-xs leading-relaxed ">
             <div>SERVAL INTEGRATED PEST MANAGEMENT SDN BHD</div>
             <div>Company No.930788-T</div>
             <div>No. 36-1 & 36-3, Jalan Jalil 1, Bumi Bukit Jalil,</div>

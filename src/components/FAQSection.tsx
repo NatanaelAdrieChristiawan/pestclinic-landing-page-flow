@@ -39,7 +39,7 @@ const FAQSection = () => {
     },
     {
       question: "What types of pests do you treat?",
-      answer: "We handle all common Singapore pests including termites, ants, cockroaches, rodents, bed bugs, mosquitoes, flies, and more. Our technicians are trained to identify and eliminate both common and unusual pest species using appropriate methods."
+      answer: "We handle all common Malaysia pests including termites, ants, cockroaches, rodents, bed bugs, mosquitoes, flies, and more. Our technicians are trained to identify and eliminate both common and unusual pest species using appropriate methods."
     },
     {
       question: "How much does pest control service cost?",
