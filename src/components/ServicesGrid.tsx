@@ -105,7 +105,10 @@ const ServicesGrid = () => {
                   {service.description}
                 </p>
                 
-                <Link to={service.path}>
+                <Link 
+                to={service.path}
+                onClick={() => window.scrollTo(0,0)}
+                >
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}

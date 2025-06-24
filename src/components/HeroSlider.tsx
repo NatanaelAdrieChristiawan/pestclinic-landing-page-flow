@@ -107,7 +107,7 @@ const HeroSlider = () => {
                   Get Free Consultation
                 </button>
                 <button
-                  className="border-2 border-[#162957] text-white hover:bg-[#162957] hover:text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300"
+                  className="border-2 border-[#162957] text-white hover:bg-[#162957] hover:text-white px-8 py-3 mt-5 rounded-lg font-semibold transition-all duration-300"
                 >
                   Learn More
                 </button>

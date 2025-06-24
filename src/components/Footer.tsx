@@ -19,8 +19,8 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Logo & Address */}
         <div className="space-y-4">
-          <img src="/images/logo/serval.png " alt="PestBusters Logo" className="h-12 mb-2" />
-          <div className="text-sm leading-relaxed">
+          <img src="/images/logo/serval.png " alt="PestBusters Logo" className="h-20 mb-2" />
+          <div className="text-xs leading-relaxed">
             <div>SERVAL INTEGRATED PEST MANAGEMENT SDN BHD</div>
             <div>Company No.930788-T</div>
             <div>No. 36-1 & 36-3, Jalan Jalil 1, Bumi Bukit Jalil,</div>
@@ -52,11 +52,11 @@ const Footer = () => {
             <li><a href="#" className="hover:underline">Sitemap</a></li>
           </ul>
           {/* Logos */}
-          <div className="flex flex-wrap gap-4 mt-6">
-            <img src="/images/footer/mpma.png" alt="MPMA" className="h-10" />
-            <img src="/images/footer/jabatan-pertanian.png" alt="Jabatan Pertanian" className="h-10" />
-            <img src="/images/footer/best-brands.png" alt="Best Brands" className="h-10" />
-            <img src="/images/footer/trusted-malaysia.png" alt="Trusted Malaysia" className="h-10" />
+          <div className="flex flex-wrap justify-center gap-6 mt-6">
+            <img src="/images/logo/mpma.png" alt="MPMA" className="h-16" />
+            <img src="/images/logo/jabatan.png" alt="Jabatan Pertanian" className="h-16" />
+            <img src="/images/logo/best.png" alt="Best Brands" className="h-16" />
+            <img src="/images/logo/trust.png" alt="Trusted Malaysia" className="h-16" />
           </div>
         </div>
 
@@ -96,7 +96,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-center text-sm text-gray-300 mt-10">
-        Copyright 2025 Pestbusters. All rights reserved.
+        Copyright 2025 Serval Integrated Pest Management SDN BHD. All rights reserved.
       </div>
     </footer>
   );

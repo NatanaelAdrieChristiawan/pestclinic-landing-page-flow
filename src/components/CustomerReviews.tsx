@@ -16,7 +16,7 @@ const CustomerReviews = () => {
       avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b5bc?w=100&h=100&fit=crop&crop=face",
       rating: 5,
       comment: "Excellent service! PestClinic solved our termite problem completely. The team was professional, punctual, and very thorough. Highly recommended!",
-      location: "Orchard, Kuala Lumpur"
+      location: "Kuala Lumpur"
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ const CustomerReviews = () => {
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
       rating: 5,
       comment: "Outstanding pest control service. They handled our office cockroach issue efficiently and discreetly. No disruption to our business operations.",
-      location: "CBD, Kuala Lumpur"
+      location: "Kuala Lumpur"
     },
     {
       id: 3,
@@ -32,7 +32,7 @@ const CustomerReviews = () => {
       avatar: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100&h=100&fit=crop&crop=face",
       rating: 5,
       comment: "Fast response time and effective treatment. Our ant problem was resolved within days. The technician explained everything clearly and provided helpful tips.",
-      location: "Tampines, Kuala Lumpur"
+      location: "Kuala Lumpur"
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ const CustomerReviews = () => {
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
       rating: 5,
       comment: "Professional and reliable service. They eliminated our rodent problem and provided excellent follow-up service. Great value for money!",
-      location: "Jurong, Kuala Lumpur"
+      location: "Kuala Lumpur"
     },
     {
       id: 5,
@@ -48,7 +48,7 @@ const CustomerReviews = () => {
       avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
       rating: 5,
       comment: "Impressed with their eco-friendly approach. Safe for my family and pets while being highly effective against pests. Will definitely use again.",
-      location: "Serangoon, Kuala Lumpur"
+      location: "Kuala Lumpur"
     }
   ];
 
