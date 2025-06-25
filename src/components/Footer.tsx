@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaFacebook, FaInstagram, FaLinkedin, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa"; // Tambahkan import Whatsapp
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -67,6 +68,17 @@ const Footer = () => {
             <div className="flex items-center space-x-2 text-lg font-bold">
               <FaPhoneAlt />
               <span>+603-78320930</span>
+            </div>
+            <div className="flex items-center space-x-2 text-lg font-bold mt-2">
+              <FaWhatsapp className="text-green-400" />
+              <a
+                href="https://wa.me/601123448311"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                +6 01123448311
+              </a>
             </div>
           </div>
           <div>

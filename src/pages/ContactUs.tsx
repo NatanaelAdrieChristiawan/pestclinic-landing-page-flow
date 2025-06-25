@@ -70,6 +70,17 @@ const Contact = () => {
               <span className="font-semibold">Tel :</span> 03-78320930
             </div>
             <div>
+              <span className="font-semibold">Mobile (WhatsApp) :</span>{' '}
+              <a
+                href="https://wa.me/601123448311"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#25D366] underline font-semibold"
+              >
+                +6 01123448311
+              </a>
+            </div>
+            <div>
               <span className="font-semibold">Email :</span> <a href="mailto:finance.servalintegrated@gmail.com" className="text-[#162957] underline">finance.servalintegrated@gmail.com</a>
             </div>
             <div>
@@ -168,7 +179,7 @@ const Contact = () => {
           <div className="w-full h-64 rounded-lg overflow-hidden">
             <iframe
               title="Serval Integrated Pest Management Location"
-              src="https://www.google.com/maps?q=No.6,+Jalan+Suria+U5/T,+Bandar+Pinggiran+Subang+(Subang+2),+40150+Shah+Alam,+Selangor,+Malaysia.&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254958.57445228632!2d101.26000978671873!3d3.1662571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8aa3d6c3618c4cd5%3A0xeb7e2732da53c98!2sSERVAL%20INTEGRATED%20PEST%20MANAGEMENT%20SDN%20BHD!5e0!3m2!1sid!2sid!4v1750841774215!5m2!1sid!2sid"
               width="100%"
               height="100%"
               style={{ border: 0 }}
