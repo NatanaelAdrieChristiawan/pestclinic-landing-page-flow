@@ -66,7 +66,7 @@ const Footer = () => {
             <div className="font-semibold mb-1">CALL US NOW</div>
             <div className="flex items-center space-x-2 text-lg font-bold">
               <FaPhoneAlt />
-              <span>+03-78320930</span>
+              <span>+603-78320930</span>
             </div>
           </div>
           <div>
