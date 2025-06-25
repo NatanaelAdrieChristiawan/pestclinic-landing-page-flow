@@ -13,37 +13,37 @@ const PortfolioGallery = () => {
     {
       id: 1,
       title: "Termite Treatment - Residential",
-      image: "/images/works/wo1.png",
+      image: "/images/works/Termite Treatment.jpg",
       description: "Complete termite elimination in a 3-story residential building"
     },
     {
       id: 2,
       title: "Commercial Kitchen Pest Control",
-      image: "/images/works/wo2.png",
+      image: "/images/works/fog.png",
       description: "Professional pest management for restaurant kitchen"
     },
     {
       id: 3,
       title: "Office Building Rodent Control",
-      image: "/images/works/wo3.png",
+      image: "/images/works/4.jpg",
       description: "Comprehensive rodent elimination in corporate office"
     },
     {
       id: 4,
       title: "Warehouse Fumigation",
-      image: "/images/works/wo4.png",
+      image: "/images/works/Warehouse.jpeg",
       description: "Industrial-grade fumigation for large warehouse facility"
     },
     {
       id: 5,
       title: "Hotel Bed Bug Treatment",
-      image: "/images/works/wo5.png",
+      image: "/images/works/build.jpg",
       description: "Complete bed bug elimination in luxury hotel"
     },
     {
       id: 6,
       title: "School Premises Sanitization",
-      image: "/images/works/wo6.png",
+      image: "/images/works/3.jpg",
       description: "Safe pest control and sanitization for educational facility"
     }
   ];

@@ -16,7 +16,7 @@ const Disinfection = () => {
         transition={{ duration: 1, ease: 'easeOut' }}
       >
         <motion.img
-          src="/images/slider/clean.png"
+          src="/images/works/Warehouse.jpeg"
           alt="Disinfection Services Banner"
           className="absolute inset-0 w-full h-full object-cover"
           initial={{ scale: 1.1 }}
@@ -49,7 +49,7 @@ const Disinfection = () => {
               animate={{ opacity: 1, x: 0 }}
             >
               <img
-                src="/images/slider/disinfection.png"
+                src="/images/works/fog.png"
                 alt="Disinfection Misting Service"
                 className="rounded-lg shadow-lg w-full"
               />

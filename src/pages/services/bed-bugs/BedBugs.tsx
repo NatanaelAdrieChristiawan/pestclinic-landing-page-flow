@@ -18,7 +18,7 @@ const BedBugs = () => {
   };
 
   const tableOfContents = [
-    { title: '1. Looking for Bed Bug Pest Control in Singapore?', id: 'looking-for' },
+    { title: '1. Looking for Bed Bug Pest Control in Kuala Lumpur?', id: 'looking-for' },
     {
       title: '2. Signs of Bed Bugs Infestation',
       id: 'signs',
@@ -31,7 +31,7 @@ const BedBugs = () => {
       ]
     },
     {
-      title: '3. What are the Bed Bugs Pest Control Methods in Singapore?',
+      title: '3. What are the Bed Bugs Pest Control Methods in Malaysia?',
       id: 'methods',
       subItems: [
         { title: '3.1. Inspection', id: 'inspection' },
@@ -55,7 +55,7 @@ const BedBugs = () => {
     { title: '8. Where Do Bed Bugs Hide?', id: 'hiding-spots' },
     { title: '9. What Do Bed Bugs Feed On?', id: 'feeding' },
     { title: '10. How To Identify Bed Bug Bites?', id: 'identify-bites' },
-    { title: '11. PestClinic – Professional and Trusted Bed Bugs Control in Singapore', id: 'pestclinic' },
+    { title: '11. PestClinic – Professional and Trusted Bed Bugs Control in Malaysia', id: 'pestclinic' },
     {
       title: '12. Frequently Asked Questions',
       id: 'faq',
@@ -63,12 +63,12 @@ const BedBugs = () => {
         { title: '12.1. How long does it take to get rid of bed bugs?', id: 'faq-duration' },
         { title: '12.2. Can I treat bed bugs on my own?', id: 'faq-self-treatment' },
         { title: '12.3. Do bed bug treatments require multiple visits?', id: 'faq-visits' },
-        { title: '12.4. How much does bed bug control in Singapore cost?', id: 'faq-cost' },
+        { title: '12.4. How much does bed bug control in Malaysia cost?', id: 'faq-cost' },
         { title: '12.5. How can I prevent future bed bug infestations?', id: 'faq-prevention' },
         { title: '12.6. How to stop bed bugs from spreading?', id: 'faq-spreading' },
-        { title: '12.7. How much does it cost to get rid of bed bugs in Singapore?', id: 'faq-sg-cost' },
+        { title: '12.7. How much does it cost to get rid of bed bugs in Malaysia?', id: 'faq-sg-cost' },
         { title: '12.8. Is it possible to 100% get rid of bed bugs?', id: 'faq-complete' },
-        { title: '12.9. Is bed bug common in Singapore?', id: 'faq-common' },
+        { title: '12.9. Is bed bug common in Malaysia?', id: 'faq-common' },
         { title: '12.10. What kills bed bugs permanently?', id: 'faq-kill' }
       ]
     }
@@ -88,7 +88,7 @@ const BedBugs = () => {
       answer: "Yes, multiple treatments are usually necessary to ensure complete elimination of all life stages."
     },
     {
-      question: "How much does bed bug control in Singapore cost?",
+      question: "How much does bed bug control in Malaysia cost?",
       answer: "Costs vary based on infestation size and treatment method. Contact us for a detailed quote."
     },
     {
@@ -100,7 +100,7 @@ const BedBugs = () => {
       answer: "Isolate infected items, wash fabrics in high heat, and contact professionals immediately."
     },
     {
-      question: "How much does it cost to get rid of bed bugs in Singapore?",
+      question: "How much does it cost to get rid of bed bugs in Malaysia?",
       answer: "Treatment costs depend on property size and infestation severity. Contact us for accurate pricing."
     },
     {
@@ -108,8 +108,8 @@ const BedBugs = () => {
       answer: "Yes, with proper professional treatment and follow-up procedures, complete elimination is possible."
     },
     {
-      question: "Is bed bug common in Singapore?",
-      answer: "Yes, bed bugs are relatively common in Singapore due to the tropical climate and urban density."
+      question: "Is bed bug common in Malaysia?",
+      answer: "Yes, bed bugs are relatively common in Malaysia due to the tropical climate and urban density."
     },
     {
       question: "What kills bed bugs permanently?",
@@ -131,7 +131,7 @@ const BedBugs = () => {
         <h2 className="text-2xl font-bold mb-6">Looking for Bed Bug Pest Control in Kuala Lumpur?</h2>
           <div className="prose max-w-none text-gray-700">
           <p>
-            At PestClinic, we specialise in bed bug pest control services in Singapore at competitive prices. Our team of skilled technicians adopt effective treatment methods to locate and control bed bug infestations, preventing further damage and restoring the hygiene and comfort of your property. Trust us to deliver the best bed bug pest control in Singapore at a reasonable price, and say goodbye to bed bugs when you engage in our bed bug control solutions today.
+            At Serval Integrated Pest Management, we specialise in bed bug pest control services in Malaysia at competitive prices. Our team of skilled technicians adopt effective treatment methods to locate and control bed bug infestations, preventing further damage and restoring the hygiene and comfort of your property. Trust us to deliver the best bed bug pest control in Malaysia at a reasonable price, and say goodbye to bed bugs when you engage in our bed bug control solutions today.
           </p>
           {/* Add content here */}
         </div>
@@ -269,7 +269,7 @@ const BedBugs = () => {
       {/* Additional Notes */}
       <div className="mt-8 bg-gray-50 p-6 rounded-lg">
         <p className="text-gray-700 leading-relaxed">
-          At PestClinic, we take on a comprehensive approach that can combine multiple strategies to control bed bugs, focusing on long-term prevention and ongoing monitoring to ensure the effectiveness of the control methods.
+          At Serval Integrated Pest Management, we take on a comprehensive approach that can combine multiple strategies to control bed bugs, focusing on long-term prevention and ongoing monitoring to ensure the effectiveness of the control methods.
         </p>
         <p className="text-gray-700 leading-relaxed mt-4">
           It is important to note that bed bug treatments can vary depending on the severity of the infestation and the specific circumstances. It is recommended to contact us for a professional bed bugs inspection to assess the situation and determine the most appropriate and effective bed bug pest control plan.
@@ -361,7 +361,7 @@ const BedBugs = () => {
             Bed bugs, or their scientific name Cimex lectularius, feed on sleeping human hosts. They are one of the world's most common pests and are prevalent in densely populated cities. While they do not transmit any diseases, their presence is still a cause of concern due to the effect on human health, both physically and psychologically.
           </p>
           <p className="mt-4">
-            These bloodsucking insects come alive at times when you are asleep. They can be present in hotels and various other staple establishments in Singapore.
+            These bloodsucking insects come alive at times when you are asleep. They can be present in hotels and various other staple establishments in Malaysia.
           </p>
         </div>
       </section>

@@ -25,7 +25,7 @@ const WhyChooseUs = () => {
                 transition={{ delay: 0.2, duration: 0.6 }}
                 className="text-[#162957] font-semibold text-lg mb-2"
               >
-                Why Choose Serval Integrated Pest Management SDN BHD
+                Why Choose Serval Integrated Pest Management Sdn Bhd
               </motion.h3>
               
               <motion.h2
@@ -130,7 +130,7 @@ const WhyChooseUs = () => {
           >
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1560472355-109703aa3edc?w=600&h=500&fit=crop"
+                src="images/slider/control.png"
                 alt="Professional Pest Control Team"
                 className="w-full h-96 object-cover"
               />

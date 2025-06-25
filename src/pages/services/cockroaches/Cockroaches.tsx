@@ -28,7 +28,7 @@ const Cockroaches = () => {
     { title: '1. Quick Facts on Cockroaches', id: 'quick-facts' },
     { title: '2. Sign of Cockroach Infestation', id: 'signs' },
     {
-      title: '3. What are the Cockroach Treatment and Control Methods in Singapore?',
+      title: '3. What are the Cockroach Treatment and Control Methods in Malaysia?',
       id: 'methods',
       subItems: [
         { title: '3.1. Cockroach Baits', id: 'baits' },
@@ -37,7 +37,7 @@ const Cockroaches = () => {
       ]
     },
     { title: '4. Common Cockroach Species', id: 'species' },
-    { title: '5. PestClinic – Professional and Trusted Cockroach Control Services in Singapore', id: 'services' },
+    { title: '5. Serval Integrated Pest Management – Professional and Trusted Cockroach Control Services in Malaysia', id: 'services' },
     {
       title: '6. Frequently Asked Questions',
       id: 'faq',
@@ -57,7 +57,7 @@ const Cockroaches = () => {
         <h2 className="text-2xl font-bold mb-6">Quick Facts on Cockroaches</h2>
         <div className="prose max-w-none text-gray-700">
           <p>
-            Cockroaches are among the most resilient and adaptable pests found in Singapore homes and businesses. 
+            Cockroaches are among the most resilient and adaptable pests found in Malaysia homes and businesses. 
             They can survive in various environments and are known carriers of numerous diseases and bacteria.
           </p>
           <ul>
@@ -85,7 +85,7 @@ const Cockroaches = () => {
 
       {/* Treatment Methods Section */}
       <section id="methods" className="scroll-mt-24">
-        <h2 className="text-2xl font-bold mb-6">What are the Cockroach Treatment and Control Methods in Singapore?</h2>
+        <h2 className="text-2xl font-bold mb-6">What are the Cockroach Treatment and Control Methods in Malaysia?</h2>
         <div className="space-y-8">
           <div id="baits" className="scroll-mt-24">
             <h3 className="text-xl font-semibold text-[#162957] mb-4">Cockroach Baits</h3>
@@ -158,10 +158,10 @@ const Cockroaches = () => {
 
       {/* Services Section */}
       <section id="services" className="scroll-mt-24">
-        <h2 className="text-2xl font-bold mb-6">PestClinic – Professional and Trusted Cockroach Control Services in Singapore</h2>
+        <h2 className="text-2xl font-bold mb-6">Serval Integrated Pest Management – Professional and Trusted Cockroach Control Services in Malaysia</h2>
         <div className="prose max-w-none text-gray-700">
           <p>
-            At PestClinic, we provide comprehensive cockroach control solutions using the latest 
+            At Serval Integrated Pest Management, we provide comprehensive cockroach control solutions using the latest 
             treatment methods and professional-grade products. Our experienced technicians will:
           </p>
           <ul>

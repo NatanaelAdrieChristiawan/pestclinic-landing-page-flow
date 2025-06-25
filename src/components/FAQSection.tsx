@@ -43,7 +43,7 @@ const FAQSection = () => {
     },
     {
       question: "How much does pest control service cost?",
-      answer: "Costs vary based on property size, pest type, and treatment complexity. We offer free consultations and quotes. Basic treatments start from $80 for residential properties, while comprehensive packages range from $200-$800. Commercial rates are quoted separately."
+      answer: "Costs vary based on property size, pest type, and treatment complexity. We offer free consultations and quotes. Basic treatments start from over RM100 for residential properties, while comprehensive packages range from RM200-RM800. Commercial rates are quoted separately."
     }
   ];
 

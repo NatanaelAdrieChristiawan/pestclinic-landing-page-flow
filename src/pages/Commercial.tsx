@@ -70,17 +70,17 @@ const Commercial = () => {
 
   const professionalServices = [
     {
-      image: "/images/works/preven.png",
+      image: "/images/works/ab1.jpeg",
       title: "Prevention",
       description: "Regular pest control services from a professional company can stop infestations before they develop, lowering the possibility of further pest issues and the chance of damage to a company."
     },
     {
-      image: "/images/works/custom.png",
+      image: "/images/works/ab2.jpeg",
       title: "Customised Solutions",
       description: "By taking into account factors, including the type of property, the severity of the pest infestation, and the regulations, pest control services can tailor their treatments to meet the unique requirements and challenges of a business"
     },
     {
-      image: "/images/works/know.png",
+      image: "/images/works/indus1.jpeg",
       title: "Knowledge and Expertise",
       description: "Professionals in pest control have the skills, experience, and training to recognise and effectively handle a variety of pest issues."
     }
@@ -110,7 +110,7 @@ const Commercial = () => {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2 }}
-            src="/images/slider/adds.png"
+            src="/images/slider/control.png"
             alt="Commercial Pest Control"
             className="w-full h-auto rounded-lg shadow-lg"
           />
@@ -183,7 +183,7 @@ const Commercial = () => {
             {[1, 2, 3].map((index) => (
               <motion.img
                 key={index}
-                src={`/images/works/indus${index}.png`}
+                src={`/images/works/indus${index}.jpeg`}
                 alt={`Industry Example ${index}`}
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
                 initial={{ opacity: 0, scale: 0.95 }}
@@ -290,7 +290,7 @@ const Commercial = () => {
               className="w-full md:w-1/2"
             >
               <img
-                src="/images/works/about.png"
+                src="/images/works/build.jpg"
                 alt="About PestClinic"
                 className="w-full rounded-lg shadow-lg"
               />

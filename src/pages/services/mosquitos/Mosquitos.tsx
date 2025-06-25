@@ -51,8 +51,8 @@ const Mosquitos = () => {
     },
     { title: '6. Mosquito Control Prevention Tips', id: 'prevention' },
     { title: '7. How To Prevent From Getting Bitten By Mosquitoes?', id: 'bites-prevention' },
-    { title: '8. PestClinic – Professional and Trusted Mosquito Control Services in Kuala Lumpur', id: 'services' },
-    { title: '9. Engage PestClinic to help you get rid of mosquitos now', id: 'engage' },
+    { title: '8. Serval Integrated Pest Management – Professional and Trusted Mosquito Control Services in Kuala Lumpur', id: 'services' },
+    { title: '9. Engage Serval Integrated Pest Management to help you get rid of mosquitos now', id: 'engage' },
     {
       title: '10. Frequently Asked Questions',
       id: 'faq',
@@ -91,7 +91,7 @@ const Mosquitos = () => {
         <h2 className="text-2xl font-bold mb-6">Quick Facts on Mosquito</h2>
         <div className="prose max-w-none text-gray-700">
           <p>
-            Mosquitoes are common flying insects in Singapore that can transmit various diseases. 
+            Mosquitoes are common flying insects in Malaysia that can transmit various diseases. 
             Understanding their behavior and lifecycle is crucial for effective control.
           </p>
           <ul>
@@ -116,7 +116,7 @@ const Mosquitos = () => {
                 className="rounded-lg w-60"
               />
               <div className="prose max-w-none">
-                <p>Otherwise known as the yellow fever mosquito, the Aedes Aegypti originated in Africa but can now be found in tropical, subtropical and temperate regions, Singapore included. Its white markings on its legs are characteristic of the said insect. Whilst it generally takes up to 8 to 10 days to fully mature, its incubation period may shorten if the temperatures increase. This is especially concerning as these mosquitoes are vectors for transmitting several tropical fevers, such as yellow fever and dengue.</p>
+                <p>Otherwise known as the yellow fever mosquito, the Aedes Aegypti originated in Africa but can now be found in tropical, subtropical and temperate regions, Malaysia included. Its white markings on its legs are characteristic of the said insect. Whilst it generally takes up to 8 to 10 days to fully mature, its incubation period may shorten if the temperatures increase. This is especially concerning as these mosquitoes are vectors for transmitting several tropical fevers, such as yellow fever and dengue.</p>
               </div>
             </div>
           </div>
@@ -207,10 +207,10 @@ const Mosquitos = () => {
 
       {/* Services Section */}
       <section id="services" className="scroll-mt-24">
-        <h2 className="text-2xl font-bold mb-6">PestClinic – Professional and Trusted Mosquito Control Services in Kuala Lumpur</h2>
+        <h2 className="text-2xl font-bold mb-6">Serval Integrated Pest Management – Professional and Trusted Mosquito Control Services in Kuala Lumpur</h2>
         <div className="prose max-w-none text-gray-700">
           <p>
-            At serval pest , we provide comprehensive mosquito control solutions using integrated pest management approaches. 
+            At Serval Integrated Pest Management, we provide comprehensive mosquito control solutions using integrated pest management approaches. 
             Our experienced technicians will:
           </p>
           <ul>

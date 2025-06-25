@@ -94,7 +94,7 @@ const OtherPests = () => {
           {/* Red Banner Section */}
           <div className="bg-[#162957] text-white p-6 rounded-lg mt-12">
             <p className="text-center">
-              Spotted a pest in your home but not sure what it is? The experts at PestClinic will help you to identify and eliminate it if necessary! Contact us at +65 6267 5677 or through email at info@pestclinic.com.sg to hire our specialist!
+              Spotted a pest in your home but not sure what it is? The experts at Serval Integrated Pest Management will help you to identify and eliminate it if necessary! Contact us at +603-78320930  or through email at finance.servalintegrated@gmail.com to hire our specialist!
             </p>
           </div>
 
@@ -104,7 +104,7 @@ const OtherPests = () => {
               These are common pests we encounter in the game of nature. Some if untreated, posed great health hazard, social unease, contamination of food and deadly in worst cases.
             </p>
             <p>
-              In PestClinic, we adopt different treatment methods to control various species of insects. Source reduction & elimination are still key factors to control these pests.
+              In Serval Integrated Pest Management, we adopt different treatment methods to control various species of insects. Source reduction & elimination are still key factors to control these pests.
             </p>
             <p>
               Targeted treatment method used are residual spraying to contact kill or mist fumigate for fast knock down effects.

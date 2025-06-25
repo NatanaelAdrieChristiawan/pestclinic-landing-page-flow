@@ -13,7 +13,7 @@ const CustomerReviews = () => {
     {
       id: 1,
       name: "Sarah Tan",
-      avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b5bc?w=100&h=100&fit=crop&crop=face",
+      avatar: "/images/reviews/Sarah Tan.png",
       rating: 5,
       comment: "Excellent service! PestClinic solved our termite problem completely. The team was professional, punctual, and very thorough. Highly recommended!",
       location: "Kuala Lumpur"
@@ -21,7 +21,7 @@ const CustomerReviews = () => {
     {
       id: 2,
       name: "Michael Lee",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
+      avatar: "images/reviews/Michael Lee.jpg",
       rating: 5,
       comment: "Outstanding pest control service. They handled our office cockroach issue efficiently and discreetly. No disruption to our business operations.",
       location: "Kuala Lumpur"
@@ -29,7 +29,7 @@ const CustomerReviews = () => {
     {
       id: 3,
       name: "Priya Sharma",
-      avatar: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100&h=100&fit=crop&crop=face",
+      avatar: "images/reviews/Priya Sharma.jpg",
       rating: 5,
       comment: "Fast response time and effective treatment. Our ant problem was resolved within days. The technician explained everything clearly and provided helpful tips.",
       location: "Kuala Lumpur"
@@ -37,7 +37,7 @@ const CustomerReviews = () => {
     {
       id: 4,
       name: "David Wong",
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+      avatar: "images/reviews/David Wong.jpg",
       rating: 5,
       comment: "Professional and reliable service. They eliminated our rodent problem and provided excellent follow-up service. Great value for money!",
       location: "Kuala Lumpur"
@@ -45,7 +45,7 @@ const CustomerReviews = () => {
     {
       id: 5,
       name: "Lisa Chen",
-      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
+      avatar: "images/reviews/Lisa Chen.jpeg",
       rating: 5,
       comment: "Impressed with their eco-friendly approach. Safe for my family and pets while being highly effective against pests. Will definitely use again.",
       location: "Kuala Lumpur"

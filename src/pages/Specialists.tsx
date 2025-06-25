@@ -60,7 +60,7 @@ const Specialist = () => {
         transition={{ duration: 1, ease: 'easeOut' }}
       >
         <motion.img
-          src="/images/slider/disinfection.png"
+          src="/images/slider/HP1.jpg"
           alt="Specialist at Work Banner"
           className="absolute inset-0 w-full h-full object-cover"
           initial={{ scale: 1.1 }}

@@ -16,18 +16,24 @@ const AboutSection = () => {
             initial={{ opacity: 0, x: -50 }}
             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
             transition={{ duration: 0.8 }}
-            className="relative"
+            className="relative h-[500px] w-full flex items-center justify-center" // Ubah tinggi container
           >
-            <div className="relative overflow-hidden rounded-2xl shadow-2xl">
+            {/* Gambar belakang (kiri atas) */}
+            <div className="absolute left-0 top-0 border-2 border-[#b5c7e6] rounded-lg w-80 h-80 z-10 bg-white shadow-md">
               <img
-                src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&h=400&fit=crop"
+                src="/images/works/ab2.jpeg"
                 alt="Pest Control Professional"
-                className="w-full h-96 object-cover"
+                className="w-full h-full object-cover rounded-lg"
               />
-              <div className="absolute inset-0 bg-gradient-to-tr from-[#162957]/20 to-transparent" />
             </div>
-            
-            
+            {/* Gambar depan (kanan bawah, overlap) */}
+            <div className="absolute left-40 top-40 border-2 border-[#b5c7e6] rounded-lg w-80 h-80 z-20 bg-white shadow-lg">
+              <img
+                src="/images/works/ab1.jpeg"
+                alt="Pest Control Professional"
+                className="w-full h-full object-cover rounded-lg"
+              />
+            </div>
           </motion.div>
 
           {/* Right Side - Content */}
@@ -53,7 +59,7 @@ const AboutSection = () => {
                 transition={{ delay: 0.5, duration: 0.6 }}
                 className="text-4xl font-bold text-foreground mb-6"
               >
-                Leading Pest Control Solutions Since 2008
+                Leading Pest Control Solutions
               </motion.h2>
             </div>
 
