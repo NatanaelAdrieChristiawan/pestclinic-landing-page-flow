@@ -103,21 +103,26 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full">
-      <nav className="bg-white shadow-lg sticky top-0 z-50 w-full">
-        <div className="max-w-none px-4 sm:px-6 lg:px-8 2xl:max-w-7xl 2xl:mx-auto relative">
-          <div className="flex justify-between items-center h-16 lg:h-20">
-            <div className="flex-shrink-0">
-              <NavLink to="/" className="block">
-                <img
-                  src="/images/logo/serval.png"
-                  alt="PestClinic Logo"
-                  className="h-8 w-auto lg:h-16"
-                />
-              </NavLink>
-            </div>
+    <div className="w-full relative">
+      {/* Floating Logo */}
+      <div className="fixed lg:left-2 top-0 z-50 flex items-center" style={{ height: 140 }}>
+        <NavLink to="/" className="block">
+          <img
+            src="/images/logo/serval.png"
+            alt="Serval Integrated Pest Management Logo"
+            className="lg:h-20 h-14 w-auto bg-white rounded-lg p-2 drop-shadow-lg"
+            style={{ marginTop: '-20px' }}
+          />
+        </NavLink>
+      </div>
 
-            {/* Desktop Menu - Fixed layout with proper spacing */}
+      {/* Navbar */}
+      <nav className="bg-[#162957] shadow-lg fixed top-0 left-0 z-40 w-full">
+        <div className="max-w-none px-4 sm:px-6 lg:px-8 2xl:max-w-7xl 2xl:mx-auto relative">
+          <div className="flex justify-end items-center h-16 lg:h-20">
+            {/* Spacer for logo */}
+            <div className="w-36 hidden lg:block" />
+            {/* Desktop Menu */}
             <div className="hidden lg:flex flex-1 justify-end">
               <div className="flex items-center space-x-10 2xl:space-x-6">
                 {menuItems.map((item, index) => (
@@ -132,9 +137,9 @@ const Navbar = () => {
                           className={`px-1 2xl:px-3 py-2 text-xs 2xl:text-sm font-medium flex flex-col items-center transition-colors duration-200 leading-tight relative
                             ${location.pathname.includes('/services')
                               ? 'text-[#8299bd]'
-                              : 'text-gray-800 hover:text-[#8299bd]'
+                              : 'text-white hover:text-[#8299bd]'
                             }`}
-                        > 
+                        >
                           <span>PEST CONTROL</span>
                           <div className="flex items-center">
                             <span>SERVICES</span>
@@ -148,7 +153,7 @@ const Navbar = () => {
                         to={routes[item]}
                         className={({ isActive }) =>
                           `px-1 2xl:px-3 py-2 text-xs 2xl:text-sm font-medium transition-colors duration-200 text-center block leading-tight
-                          ${isActive ? 'text-[#8299bd]' : 'text-gray-800 hover:text-[#8299bd]'}`
+                          ${isActive ? 'text-[#8299bd]' : 'text-white hover:text-[#8299bd]'}`
                         }
                       >
                         <div>COMMERCIAL/</div>
@@ -159,7 +164,7 @@ const Navbar = () => {
                         to={routes[item]}
                         className={({ isActive }) =>
                           `px-1 2xl:px-3 py-2 text-xs 2xl:text-sm font-medium transition-colors duration-200 text-center block leading-tight
-                          ${isActive ? 'text-[#8299bd]' : 'text-gray-800 hover:text-[#8299bd]'}`
+                          ${isActive ? 'text-[#8299bd]' : 'text-white hover:text-[#8299bd]'}`
                         }
                       >
                         <div>DISINFECTION</div>
@@ -170,7 +175,7 @@ const Navbar = () => {
                         to={routes[item]}
                         className={({ isActive }) =>
                           `px-1 2xl:px-3 py-2 text-xs 2xl:text-sm font-medium transition-colors duration-200 text-center block leading-tight
-                          ${isActive ? 'text-[#8299bd]' : 'text-gray-800 hover:text-[#8299bd]'}`
+                          ${isActive ? 'text-[#8299bd]' : 'text-white hover:text-[#8299bd]'}`
                         }
                       >
                         <div>SPECIALIST</div>
@@ -181,7 +186,7 @@ const Navbar = () => {
                         to={routes[item]}
                         className={({ isActive }) =>
                           `px-1 2xl:px-3 py-2 text-xs 2xl:text-sm font-medium transition-colors duration-200 whitespace-nowrap
-                          ${isActive ? 'text-[#8299bd]' : 'text-gray-800 hover:text-[#8299bd]'}`
+                          ${isActive ? 'text-[#8299bd]' : 'text-white hover:text-[#8299bd]'}`
                         }
                       >
                         {item}
@@ -196,7 +201,7 @@ const Navbar = () => {
             <div className="lg:hidden">
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                className="text-gray-800 hover:text-[#8299bd] p-2 transition-colors"
+                className="text-white hover:text-[#8299bd] p-2 transition-colors"
                 aria-label="Toggle menu"
               >
                 {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -204,7 +209,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* Mobile Menu - Fixed white space issue */}
+          {/* Mobile Menu */}
           <AnimatePresence>
             {isMobileMenuOpen && (
               <motion.div
@@ -214,20 +219,20 @@ const Navbar = () => {
                 transition={{ duration: 0.3 }}
                 className="lg:hidden overflow-hidden"
               >
-                <div className="px-2 pt-2 pb-4 space-y-1 bg-white border-t border-gray-200">
+                <div className="px-2 pt-2 pb-4 space-y-1 bg-[#162957] border-t border-gray-200">
                   {menuItems.map((item) => (
                     <div key={item} className="w-full">
                       {item === 'PEST CONTROL SERVICES' ? (
                         <div className="w-full">
                           <button
                             onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                            className="w-full text-left text-gray-800 hover:text-[#8299bd] px-3 py-3 text-base font-medium transition-colors duration-200 flex items-center justify-between"
+                            className="w-full text-left text-white hover:text-[#8299bd] px-3 py-3 text-base font-medium transition-colors duration-200 flex items-center justify-between"
                           >
                             PEST CONTROL SERVICES
-                            <ChevronDown 
+                            <ChevronDown
                               className={`h-4 w-4 transition-transform duration-200 ${
                                 isDropdownOpen ? 'rotate-180' : ''
-                              }`} 
+                              }`}
                             />
                           </button>
                           <AnimatePresence>
@@ -237,7 +242,7 @@ const Navbar = () => {
                                 animate={{ opacity: 1, height: 'auto' }}
                                 exit={{ opacity: 0, height: 0 }}
                                 transition={{ duration: 0.2 }}
-                                className="bg-gray-50 overflow-hidden"
+                                className="bg-[#1e2d4d] overflow-hidden"
                               >
                                 <div className="pl-6 py-2">
                                   {pestControlServices.map((service) => (
@@ -252,7 +257,7 @@ const Navbar = () => {
                                               <NavLink
                                                 key={item.name}
                                                 to={item.path}
-                                                className="block text-gray-600 text-sm py-1 hover:text-[#8299bd] transition-colors"
+                                                className="block text-white text-sm py-1 hover:text-[#8299bd] transition-colors"
                                                 onClick={handleMobileLinkClick}
                                               >
                                                 {item.name}
@@ -281,7 +286,7 @@ const Navbar = () => {
                           to={routes[item]}
                           className={({ isActive }) =>
                             `block w-full px-3 py-3 text-base font-medium transition-colors duration-200
-                            ${isActive ? 'text-[#8299bd] bg-orange-50' : 'text-gray-800 hover:text-[#8299bd] hover:bg-gray-50'}`
+                            ${isActive ? 'text-[#8299bd] bg-[#1e2d4d]' : 'text-white hover:text-[#8299bd] hover:bg-[#1e2d4d]'}`
                           }
                           onClick={handleMobileLinkClick}
                         >
@@ -296,6 +301,8 @@ const Navbar = () => {
           </AnimatePresence>
         </div>
       </nav>
+      {/* Spacer to prevent content from being hidden behind floating logo */}
+      <div className="h-10 lg:h-12"></div>
     </div>
   );
 };
