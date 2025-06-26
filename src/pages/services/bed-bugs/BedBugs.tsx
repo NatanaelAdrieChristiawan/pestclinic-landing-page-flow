@@ -277,21 +277,11 @@ const BedBugs = () => {
       </div>
 
       {/* Treatment Images Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
-        <img 
-          src="/images/services/treatment1.png"
-          alt="Bed Bug Treatment Process 1"
-          className="w-full rounded-lg"
-        />
-        <img 
-          src="/images/services/treatment2.png"
-          alt="Bed Bug Treatment Process 2"
-          className="w-full rounded-lg"
-        />
-        <img 
-          src="/images/services/treatment3.png"
-          alt="Bed Bug Treatment Process 3"
-          className="w-full rounded-lg"
+      <div className="flex justify-center mt-8">
+        <img
+          src="/images/services/protect.jpg"
+          alt="Bed Bug Treatment Process"
+          className="w-full max-w-2xl rounded-lg object-cover"
         />
       </div>
     </section>

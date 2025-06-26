@@ -44,7 +44,7 @@ const WhyChooseUs = () => {
                 className="text-muted-foreground text-lg leading-relaxed"
               >
                 With over a decade of experience and thousands of satisfied customers, 
-                Serval Integrated Pest Management SDN BHD stands as Kuala Lumpur's premier pest control solution provider.
+                Serval Integrated Pest Management Sdn Bhd stands as Kuala Lumpur's premier pest control solution provider.
               </motion.p>
             </div>
 

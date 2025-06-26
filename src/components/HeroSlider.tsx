@@ -11,21 +11,21 @@ const HeroSlider = () => {
       title: "Professional Pest Control Services",
       subtitle: "Protecting Your Home & Business",
       description: "Expert pest elimination with guaranteed results and eco-friendly solutions",
-      image: "/images/slider/clean.png"
+      image: "/images/slider/banner-1.jpg"
     },
     {
       id: 2,
       title: "Termite Treatment Specialists",
       subtitle: "Complete Termite Solutions",
       description: "Advanced termite detection and elimination with long-term protection",
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200&h=600&fit=crop"
+      image: "/images/slider/banner-2.jpg"
     },
     {
       id: 3,
       title: "Commercial Pest Management",
       subtitle: "Industrial Grade Solutions",
       description: "Comprehensive pest control for commercial and industrial facilities",
-      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&h=600&fit=crop"
+      image: "/images/slider/banner-3.jpg"
     }
   ];
 
