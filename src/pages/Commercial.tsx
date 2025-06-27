@@ -304,7 +304,7 @@ const Commercial = () => {
             >
               <h2 className="text-3xl font-bold text-gray-900">About Us</h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                At Serval Integrated Pest Management, no pests, no stress. As a locally established pest control company providing expert services to commercial sectors in Singapore, we are also equipped with the knowledge and experience to offer services to residential and industrial sectors alike. We dedicate ourselves to providing our customers with effective and safe pest control services, with a combined 30 years of professional expertise.
+                At Serval Integrated Pest Management, no pests, no stress. As a locally established pest control company providing expert services to commercial sectors in Malaysia, we are also equipped with the knowledge and experience to offer services to residential and industrial sectors alike. We dedicate ourselves to providing our customers with effective and safe pest control services, with a combined 30 years of professional expertise.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
                 We employ both conventional methods and cutting-edge technology to eradicate pests swiftly. With a team of NEA-certified specialists, they are well-trained to provide mess-free, efficient, and safe solutions for all.
@@ -326,7 +326,7 @@ const Commercial = () => {
             className="text-center space-y-6"
           >
             <h2 className="text-3xl font-bold">
-              Serval Integrated Pest Management – Professional and Trusted Commercial / Industrial Pest Control Services in Singapore
+              Serval Integrated Pest Management – Professional and Trusted Commercial / Industrial Pest Control Services in Malaysia
             </h2>
             
             <p className="text-lg text-gray-600 max-w-4xl mx-auto">
