@@ -8,6 +8,7 @@ import PortfolioGallery from '@/components/PortfolioGallery';
 import CustomerReviews from '@/components/CustomerReviews';
 import FAQSection from '@/components/FAQSection';
 import Footer from '@/components/Footer';
+import WhatsappFloatingButton from '@/components/WhatsappFloatingButton';
 
 const Index = () => {
   return (
@@ -22,6 +23,7 @@ const Index = () => {
       <CustomerReviews />
       <FAQSection />
       <Footer />
+      <WhatsappFloatingButton />
     </div>
   );
 };

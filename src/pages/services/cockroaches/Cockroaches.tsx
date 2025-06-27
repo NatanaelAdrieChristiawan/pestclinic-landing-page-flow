@@ -33,7 +33,7 @@ const Cockroaches = () => {
       subItems: [
         { title: '3.1. Cockroach Baits', id: 'baits' },
         { title: '3.2. Insecticide Residual Spray', id: 'spray' },
-        { title: '3.3. Bin Chutes Fogging', id: 'fogging' }
+        { title: '3.3. Misblow Misting', id: 'fogging' }
       ]
     },
     { title: '4. Common Cockroach Species', id: 'species' },
@@ -91,7 +91,7 @@ const Cockroaches = () => {
             <h3 className="text-xl font-semibold text-[#162957] mb-4">Cockroach Baits</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <img 
-                src="/images/services/baits1.png" 
+                src="/images/services/baits1.jpg" 
                 alt="Cockroach Baits"
                 className="rounded-lg w-60"
               />
@@ -109,9 +109,9 @@ const Cockroaches = () => {
             <h3 className="text-xl font-semibold text-[#162957] mb-4">Insecticide Residual Spray</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <img 
-                src="/images/services/baits2.png" 
+                src="/images/services/baits2.jpeg" 
                 alt="Insecticide Spray"
-                className="rounded-lg w-60"
+                className="rounded-lg w-40"
               />
               <div className="prose max-w-none">
                 <p>
@@ -124,10 +124,10 @@ const Cockroaches = () => {
           </div>
 
           <div id="fogging" className="scroll-mt-24">
-            <h3 className="text-xl font-semibold text-[#162957] mb-4">Bin Chutes Fogging</h3>
+            <h3 className="text-xl font-semibold text-[#162957] mb-4">Misblow Misting</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <img 
-                src="/images/services/baits3.png" 
+                src="/images/services/baits3.jpeg" 
                 alt="Bin Chutes Fogging"
                 className="rounded-lg w-60"
               />

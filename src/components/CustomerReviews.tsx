@@ -15,7 +15,7 @@ const CustomerReviews = () => {
       name: "Sarah Tan",
       avatar: "/images/reviews/Sarah Tan.png",
       rating: 5,
-      comment: "Excellent service! PestClinic solved our termite problem completely. The team was professional, punctual, and very thorough. Highly recommended!",
+      comment: "Excellent service! Serval Integrated Pest Management solved our termite problem completely. The team was professional, punctual, and very thorough. Highly recommended!",
       location: "Kuala Lumpur"
     },
     {

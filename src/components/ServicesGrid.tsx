@@ -18,7 +18,7 @@ const ServicesGrid = () => {
     {
       title: "Bed Bugs Control",
       image: "/images/controls/bedbugs.jpg",
-      description: "Bed bugs cause irritation and discomfort. PestClinic offers effective bed bug control services to eliminate infestations.",
+      description: "Bed bugs cause irritation and discomfort. Serval Integrated Pest Management offers effective bed bug control services to eliminate infestations.",
       path: "/services/bed-bugs"
     },
     {

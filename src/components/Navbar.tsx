@@ -83,7 +83,7 @@ const Navbar = () => {
                   <NavLink
                     to={service.path}
                     className="block font-semibold text-[#162957] text-sm hover:text-[#8299bd] transition-colors"
-                    onClick={() => setIsDropdownOpen(false)}
+                    onClick={() => window.scrollTo(0,0)}
                   >
                     {service.category}
                   </NavLink>
@@ -106,7 +106,7 @@ const Navbar = () => {
     <div className="w-full relative">
       {/* Floating Logo */}
       <div className="fixed lg:left-2 top-0 z-50 flex items-center" style={{ height: 140 }}>
-        <NavLink to="/" className="block">
+        <NavLink to="/" className="block" onClick={() => window.scrollTo(0,0)}>
           <img
             src="/images/logo/serval.png"
             alt="Serval Integrated Pest Management Logo"
@@ -151,6 +151,7 @@ const Navbar = () => {
                     ) : item === 'COMMERCIAL/INDUSTRIAL SECTOR' ? (
                       <NavLink
                         to={routes[item]}
+                        onClick={() => window.scrollTo(0,0)}
                         className={({ isActive }) =>
                           `px-1 2xl:px-3 py-2 text-xs 2xl:text-sm font-medium transition-colors duration-200 text-center block leading-tight
                           ${isActive ? 'text-[#8299bd]' : 'text-white hover:text-[#8299bd]'}`
@@ -162,6 +163,7 @@ const Navbar = () => {
                     ) : item === 'DISINFECTION SERVICES' ? (
                       <NavLink
                         to={routes[item]}
+                        onClick={() => window.scrollTo(0,0)}
                         className={({ isActive }) =>
                           `px-1 2xl:px-3 py-2 text-xs 2xl:text-sm font-medium transition-colors duration-200 text-center block leading-tight
                           ${isActive ? 'text-[#8299bd]' : 'text-white hover:text-[#8299bd]'}`
@@ -173,6 +175,7 @@ const Navbar = () => {
                     ) : item === 'SPECIALIST AT WORK' ? (
                       <NavLink
                         to={routes[item]}
+                        onClick={() => window.scrollTo(0,0)}
                         className={({ isActive }) =>
                           `px-1 2xl:px-3 py-2 text-xs 2xl:text-sm font-medium transition-colors duration-200 text-center block leading-tight
                           ${isActive ? 'text-[#8299bd]' : 'text-white hover:text-[#8299bd]'}`
@@ -184,6 +187,7 @@ const Navbar = () => {
                     ) : (
                       <NavLink
                         to={routes[item]}
+                        onClick={() => window.scrollTo(0,0)}
                         className={({ isActive }) =>
                           `px-1 2xl:px-3 py-2 text-xs 2xl:text-sm font-medium transition-colors duration-200 whitespace-nowrap
                           ${isActive ? 'text-[#8299bd]' : 'text-white hover:text-[#8299bd]'}`
