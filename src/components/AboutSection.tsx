@@ -50,7 +50,7 @@ const AboutSection = () => {
                 transition={{ delay: 0.4, duration: 0.6 }}
                 className="text-[#162957] font-semibold text-lg mb-2"
               >
-                About Serval Pest Management
+                About Serval Integrated Pest Management
               </motion.h3>
               
               <motion.h2
@@ -69,7 +69,7 @@ const AboutSection = () => {
               transition={{ delay: 0.6, duration: 0.6 }}
               className="text-muted-foreground text-lg leading-relaxed"
             >
-              Serval Pest Management is premier pest control company, providing comprehensive 
+              Serval Integrated Pest Management is premier pest control company, providing comprehensive 
               pest management solutions for residential, commercial, and industrial properties. 
               With experience, we have successfully eliminated pest problems 
               for thousands of satisfied customers.
