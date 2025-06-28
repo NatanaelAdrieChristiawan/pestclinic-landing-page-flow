@@ -20,6 +20,7 @@ import Flies from "./pages/services/flies/Flies";
 import Mosquitos from "./pages/services/mosquitos/Mosquitos";
 import Rodents from "./pages/services/rodents/Rodents";
 import OtherPests from "./pages/services/other-pests/OtherPests";
+import ListOfClients from "./pages/ListOfClients";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +37,7 @@ const App = () => (
           <Route path="/disinfection" element={<Disinfection />} />
           <Route path="/specialist" element={<Specialist />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/clients" element={<ListOfClients />} /> {/* Tambahkan ini */}
           <Route path="/services/termite/control" element={<TermiteControl />} />
           <Route path="/services/termite/inspection" element={<TermiteInspection />} />
           <Route path="/services/termite/types" element={<TermiteTypes />} />

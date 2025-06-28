@@ -15,6 +15,7 @@ const Navbar = () => {
     'COMMERCIAL/INDUSTRIAL SECTOR': '/commercial',
     'DISINFECTION SERVICES': '/disinfection',
     'SPECIALIST AT WORK': '/specialist',
+    'LIST OF CLIENTS': '/clients', // Tambahkan ini
     'CONTACT US': '/contact'
   };
 
@@ -43,6 +44,7 @@ const Navbar = () => {
     'COMMERCIAL/INDUSTRIAL SECTOR',
     'DISINFECTION SERVICES',
     'SPECIALIST AT WORK',
+    'LIST OF CLIENTS', // Tambahkan ini
     'CONTACT US'
   ];
 
@@ -72,7 +74,7 @@ const Navbar = () => {
                           key={item.name}
                           to={item.path}
                           className="block text-gray-600 text-xs py-1 hover:text-[#8299bd] transition-colors"
-                          onClick={() => setIsDropdownOpen(false)}
+                          onClick={() => {setIsDropdownOpen(false); window.scrollTo(0,0); }}
                         >
                           {item.name}
                         </NavLink>
@@ -104,27 +106,22 @@ const Navbar = () => {
 
   return (
     <div className="w-full relative">
-      {/* Floating Logo */}
-      <div className="fixed lg:left-2 top-0 z-50 flex items-center" style={{ height: 140 }}>
-        <NavLink to="/" className="block" onClick={() => window.scrollTo(0,0)}>
-          <img
-            src="/images/logo/serval.png"
-            alt="Serval Integrated Pest Management Logo"
-            className="lg:h-20 h-14 w-auto bg-white rounded-lg p-2 drop-shadow-lg"
-            style={{ marginTop: '-20px' }}
-          />
-        </NavLink>
-      </div>
-
       {/* Navbar */}
       <nav className="bg-[#162957] shadow-lg fixed top-0 left-0 z-40 w-full">
         <div className="max-w-none px-4 sm:px-6 lg:px-8 2xl:max-w-7xl 2xl:mx-auto relative">
-          <div className="flex justify-end items-center h-16 lg:h-20">
-            {/* Spacer for logo */}
-            <div className="w-36 hidden lg:block" />
+          <div className="flex items-center h-16 lg:h-20 justify-between">
+            {/* Logo */}
+            <NavLink to="/" className="block flex-shrink-0" onClick={() => window.scrollTo(0,0)}>
+              <img
+                src="/images/logo/serval.png"
+                alt="Serval Integrated Pest Management Logo"
+                className="lg:h-20 h-14 w-auto bg-white rounded-lg p-2 drop-shadow-lg"
+                style={{ marginTop: '40px', marginRight: '20px' }}
+              />
+            </NavLink>
             {/* Desktop Menu */}
             <div className="hidden lg:flex flex-1 justify-end">
-              <div className="flex items-center space-x-10 2xl:space-x-6">
+              <div className="flex items-center space-x-8 2xl:space-x-6">
                 {menuItems.map((item, index) => (
                   <div key={item} className="relative">
                     {item === 'PEST CONTROL SERVICES' ? (
@@ -200,7 +197,6 @@ const Navbar = () => {
                 ))}
               </div>
             </div>
-
             {/* Mobile menu button */}
             <div className="lg:hidden">
               <button
@@ -305,8 +301,8 @@ const Navbar = () => {
           </AnimatePresence>
         </div>
       </nav>
-      {/* Spacer to prevent content from being hidden behind floating logo */}
-      <div className="h-10 lg:h-12"></div>
+      {/* Spacer to prevent content from being hidden behind navbar */}
+      <div className="h-20"></div>
     </div>
   );
 };

@@ -105,7 +105,14 @@ const FAQSection = () => {
             Still have questions? We're here to help!
           </p>
           <button className="bg-[#162957] hover:bg-[#162957]/90 text-primary-foreground px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
+           <a 
+           href="https://wa.me/601123448311"
+           target="_blank"
+           rel = "noopener noreferrer"
+           className="inline-block bg-[#162957] hover:bg-[#162957]/90 text-primary-foreground px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+           >
             Contact Our Experts
+            </a> 
           </button>
         </motion.div>
       </div>
