@@ -78,8 +78,8 @@ const Footer = () => {
             <div className="font-semibold mb-1">ENQUIRE NOW</div>
             <div className="flex items-center space-x-2 text-sm">
               <FaEnvelope />
-              <a href="mailto:finance.servalintegrated@gmail.com" className="hover:underline font-semibold">
-                finance.servalintegrated@gmail.com
+              <a href="mailto:OfficialHQ@servalpestmanagement.com" className="hover:underline font-semibold">
+                OfficialHQ@servalpestmanagement.com
               </a>
             </div>
           </div>

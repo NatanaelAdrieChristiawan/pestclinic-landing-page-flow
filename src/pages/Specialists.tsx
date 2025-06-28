@@ -7,44 +7,28 @@ import ImageGrid from '../components/ImageGrid';
 const Specialist = () => {
   const sections = [
     {
-      title: "Bed Bug Treatment",
-      images: Array.from({ length: 6 }, (_, i) => `/images/specialists/bed-bugs/${i + 1}.jpg`)
+      title: "TERMITE BAITING SYSTEM (OUTDOOR)",
+      images: Array.from({ length: 4 }, (_, i) => `/images/specialists/outdoor/${i + 1}.png`)
     },
     {
-      title: "Cockroach Treatment",
-      images: Array.from({ length: 9 }, (_, i) => `/images/specialists/cockroach/${i + 1}.jpg`)
+      title: "TERMITE BAITING SYSTEM (INDOOR STATION)",
+      images: Array.from({ length: 4 }, (_, i) => `/images/specialists/indoor/${i + 1}.png`)
     },
     {
-      title: "Flies Treatment",
-      images: Array.from({ length: 2 }, (_, i) => `/images/specialists/flies/${i + 1}.jpg`)
+      title: "GENERAL PEST CONTROL (GPC)",
+      images: Array.from({ length: 4 }, (_, i) => `/images/specialists/control/${i + 1}.png`)
     },
     {
-      title: "Rodent Treatment",
-      images: Array.from({ length: 8 }, (_, i) => `/images/specialists/rodent/${i + 1}.jpg`)
+      title: "RATS BAITING",
+      images: Array.from({ length: 4 }, (_, i) => `/images/specialists/rats/${i + 1}.png`)
     },
     {
-      title: "Termite Treatment for Landed Property",
-      images: Array.from({ length: 12 }, (_, i) => `/images/specialists/termite-landed/${i + 1}.jpg`)
+      title: "GEL BAITING",
+      images: Array.from({ length: 4 }, (_, i) => `/images/specialists/gel/${i + 1}.png`)
     },
     {
-      title: "Termite Treatment for Apartment",
-      images: Array.from({ length: 2 }, (_, i) => `/images/specialists/termite-apartment/${i + 1}.jpg`)
-    },
-    {
-      title: "Roof Treatment",
-      images: Array.from({ length: 8 }, (_, i) => `/images/specialists/roof/${i + 1}.jpg`)
-    },
-    {
-      title: "Soil Treatment",
-      images: Array.from({ length: 13 }, (_, i) => `/images/specialists/soil/${i + 1}.jpg`)
-    },
-    {
-      title: "Drywood Termite Treatment",
-      images: Array.from({ length: 8 }, (_, i) => `/images/specialists/drywood/${i + 1}.jpg`)
-    },
-    {
-      title: "Other Pest Controls",
-      images: Array.from({ length: 3 }, (_, i) => `/images/specialists/other/${i + 1}.jpg`)
+      title: "RATS CAGE",
+      images: Array.from({ length: 4 }, (_, i) => `/images/specialists/cage/${i + 1}.png`)
     }
   ];
 

@@ -81,7 +81,7 @@ const Contact = () => {
               </a>
             </div>
             <div>
-              <span className="font-semibold">Email :</span> <a href="mailto:finance.servalintegrated@gmail.com" className="text-[#162957] underline">finance.servalintegrated@gmail.com</a>
+              <span className="font-semibold">Email :</span> <a href="mailto:OfficialHQ@servalpestmanagement.com" className="text-[#162957] underline">OfficialHQ@servalpestmanagement.com</a>
             </div>
             <div>
               <span className="font-semibold">Working hours:</span><br />
