@@ -102,7 +102,7 @@ const AboutSection = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-[#162957] rounded-full"></div>
-                <span className="text-foreground font-medium">24/7 Emergency Response Available</span>
+                <span className="text-foreground font-medium">Free Consultation</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-[#162957] rounded-full"></div>
