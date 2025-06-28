@@ -105,7 +105,7 @@ const Footer = () => {
         <br />
         Build with Passion{' '}
         <a
-          href="https://creepercreative.com.my/"
+          href="https://gomedia.com.my/"
           target="_blank"
           rel="noopener noreferrer"
           className="underline font-semibold text-white hover:text-green-300"
