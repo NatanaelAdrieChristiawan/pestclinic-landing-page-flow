@@ -118,7 +118,7 @@ const AboutSection = () => {
               className="pt-4"
             >
               <Link to="/about" onClick={() => window.scrollTo(0,0)}>
-                <button className="bg-[#162957] hover:bg-[#8299bd]/90 text-primary-foreground px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
+                <button className="bg-[#162957] hover:bg-[#8299bd]/90 text-primary-foreground px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 mb-5">
                   Learn More About Us
                 </button>
               </Link>
