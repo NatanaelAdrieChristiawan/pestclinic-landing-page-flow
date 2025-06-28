@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { Link } from "react-router-dom";
+import RunningLogo from './RunningLogo';
 
 const AboutSection = () => {
   const ref = useRef(null);
@@ -125,6 +126,9 @@ const AboutSection = () => {
           </motion.div>
         </div>
       </div>
+
+      <RunningLogo />
+
     </section>
   );
 };

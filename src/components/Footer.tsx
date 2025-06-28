@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaFacebook, FaInstagram, FaLinkedin, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa"; // Tambahkan import Whatsapp
 
 const Footer = () => {
@@ -32,18 +32,8 @@ const Footer = () => {
             <div>Malaysia</div>
           </div>
           <div className="mt-4">
-            <span className="font-semibold">FOLLOW US</span>
-            <div className="flex space-x-4 mt-2">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                <FaFacebook size={20} />
-              </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                <FaInstagram size={20} />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                <FaLinkedin size={20} />
-              </a>
-            </div>
+            {/* <span className="font-semibold">FOLLOW US</span> */}
+            {/* Media sosial dihapus sesuai permintaan */}
           </div>
         </div>
 
@@ -60,7 +50,7 @@ const Footer = () => {
             <img src="/images/logo/mpma.png" alt="MPMA" className="h-16" />
             <img src="/images/logo/jabatan.png" alt="Jabatan Pertanian" className="h-16" />
             <img src="/images/logo/best.png" alt="Best Brands" className="h-16" />
-            <img src="/images/logo/trust.png" alt="Trusted Malaysia" className="h-16" />
+            {/* <img src="/images/logo/trust.png" alt="Trusted Malaysia" className="h-16" /> */}
           </div>
         </div>
 
@@ -112,6 +102,17 @@ const Footer = () => {
       </div>
       <div className="text-center text-sm text-gray-300 mt-10">
         Copyright 2025 Serval Integrated Pest Management SDN BHD. All rights reserved.
+        <br />
+        Build with Passion{' '}
+        <a
+          href="https://creepercreative.com.my/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline font-semibold text-white hover:text-green-300"
+        >
+          GO MEDIA MALAYSIA
+        </a>{' '}
+        (AS0414466-H).
       </div>
     </footer>
   );
