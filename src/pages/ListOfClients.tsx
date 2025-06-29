@@ -145,6 +145,46 @@ const ListOfClients = () => {
 					>
 						List of Major Clients
 					</motion.h1>
+
+					{/* Logo Grid */}
+					<motion.div
+						initial="hidden"
+						whileInView="show"
+						viewport={{ once: true, amount: 0.3 }}
+						variants={{
+							hidden: {},
+							show: { transition: { staggerChildren: 0.07 } },
+						}}
+						className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4 md:gap-6 justify-items-center mb-12"
+					>
+						{Array.from({ length: 26 }).map((_, i) => (
+							<motion.div
+								key={i}
+								variants={{
+									hidden: { opacity: 0, scale: 0.8, y: 30 },
+									show: {
+										opacity: 1,
+										scale: 1,
+										y: 0,
+										transition: { type: 'spring', duration: 0.5 },
+									},
+								}}
+								whileHover={{
+									scale: 1.07,
+									boxShadow: '0 4px 24px rgba(22,41,87,0.10)',
+								}}
+								className="bg-white rounded-lg flex items-center justify-center shadow p-2 md:p-3"
+								style={{ minHeight: '70px' }}
+							>
+								<img
+									src={`/images/major/major${i + 1}.png`}
+									alt={`Major Client Logo ${i + 1}`}
+									className="h-10 w-auto md:h-14 max-w-[90px] object-contain"
+								/>
+							</motion.div>
+						))}
+					</motion.div>
+
 					<motion.div
 						variants={containerVariants}
 						initial="hidden"
