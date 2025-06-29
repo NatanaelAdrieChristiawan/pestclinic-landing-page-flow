@@ -44,7 +44,7 @@ const Navbar = () => {
     'COMMERCIAL/INDUSTRIAL SECTOR',
     'DISINFECTION SERVICES',
     'SPECIALIST AT WORK',
-    'LIST OF CLIENTS', // Tambahkan ini
+    'LIST OF CLIENTS',
     'CONTACT US'
   ];
 
@@ -258,7 +258,10 @@ const Navbar = () => {
                                                 key={item.name}
                                                 to={item.path}
                                                 className="block text-white text-sm py-1 hover:text-[#8299bd] transition-colors"
-                                                onClick={handleMobileLinkClick}
+                                                onClick={e => {
+                                                  handleMobileLinkClick();
+                                                  window.scrollTo(0,0);
+                                                }}
                                               >
                                                 {item.name}
                                               </NavLink>
@@ -288,7 +291,10 @@ const Navbar = () => {
                             `block w-full px-3 py-3 text-base font-medium transition-colors duration-200
                             ${isActive ? 'text-[#8299bd] bg-[#1e2d4d]' : 'text-white hover:text-[#8299bd] hover:bg-[#1e2d4d]'}`
                           }
-                          onClick={handleMobileLinkClick}
+                          onClick={e => {
+                            handleMobileLinkClick();
+                            window.scrollTo(0,0);
+                          }}
                         >
                           {item}
                         </NavLink>
