@@ -31,7 +31,7 @@ const Contact = () => {
         transition={{ duration: 1, ease: 'easeOut' }}
       >
         <motion.img
-          src="/images/slider/disinfection.png"
+          src="/images/slider/banner-1.jpg"
           alt="Contact Banner"
           className="absolute inset-0 w-full h-full object-cover"
           initial={{ scale: 1.1 }}

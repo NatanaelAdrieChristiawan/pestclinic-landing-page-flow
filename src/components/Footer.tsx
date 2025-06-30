@@ -23,7 +23,7 @@ const Footer = () => {
           <img
             src="/images/logo/serval.png"
             alt="PestBusters Logo"
-            className="h-24 w-auto mb-2 bg-white rounded-lg p-2 drop-shadow-lg"
+            className="lg:h-18 h-14 w-auto mb-2 bg-white rounded-lg p-2 drop-shadow-lg"
           />
           <div className="text-xs leading-relaxed ">
             <div>SERVAL INTEGRATED PEST MANAGEMENT SDN BHD (930788-T)</div>
@@ -80,6 +80,12 @@ const Footer = () => {
               <FaEnvelope />
               <a href="mailto:OfficialHQ@servalpestmanagement.com" className="hover:underline font-semibold">
                 OfficialHQ@servalpestmanagement.com
+              </a>
+            </div>
+            <div className="flex items-center space-x-2 text-sm mt-2">
+              <FaEnvelope />
+              <a href="mailto:servalpest88@gmail.com" className="hover:underline font-semibold">
+                servalpest88@gmail.com
               </a>
             </div>
           </div>
