@@ -35,7 +35,7 @@ const FAQSection = () => {
     },
     {
       question: "How quickly can you respond to emergency pest problems?",
-      answer: "We offer 24/7 emergency response for urgent pest issues. In most cases, we can dispatch a technician within 2-4 hours for emergency calls. Same-day service is available for regular appointments when scheduled before 2 PM."
+      answer: "We offer within 24 hours emergency response for urgent pest issues. In most cases, we can dispatch a technician within 2-4 hours for emergency calls. Same-day service is available for regular appointments when scheduled before 2 PM."
     },
     {
       question: "What types of pests do you treat?",

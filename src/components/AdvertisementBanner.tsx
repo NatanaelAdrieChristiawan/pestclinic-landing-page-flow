@@ -40,7 +40,7 @@ const AdvertisementBanner = () => {
               transition={{ delay: 0.4, duration: 0.8 }}
               className="text-xl mb-8 opacity-90"
             >
-              Free Consultation, Free Inspection Visit (Within Klang valley/ Kuala Lumpur/Cyberjaya/Putrajaya), Satisfaction & Commitment Guarantee
+              Free Consultation,  ⁠Free Inspection Visit ( Within Klang valley/ Kuala Lumpur / Cyberjaya / Putrajaya ), Satisfaction & ⁠Commitment Guarantee
             </motion.p>
 
             <motion.div
@@ -62,15 +62,19 @@ const AdvertisementBanner = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
               transition={{ delay: 0.8, duration: 0.8 }}
-              className="grid grid-cols-1 sm:grid-cols-3 gap-4"
+              className="grid grid-cols-1 sm:grid-cols-4 gap-4"
             >
+              <div className="flex items-center">
+                <Clock className="h-5 w-5 mr-2" />
+                <span className="text-sm">24 Hours Respond Time</span>
+              </div>
               <div className="flex items-center">
                 <CheckCircle className="h-5 w-5 mr-2" />
                 <span className="text-sm">Free Inspection</span>
               </div>
               <div className="flex items-center">
-                <CheckCircle className="h-5 w-5 mr-2" />
-                <span className="text-sm">Same Day Service</span>
+                <Clock className="h-5 lg:w-8 w-5 mr-2" />
+                <span className="text-sm">Respond Services in 24/48 Hours</span>
               </div>
             </motion.div>
           </motion.div>
