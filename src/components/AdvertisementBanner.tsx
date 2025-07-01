@@ -40,7 +40,7 @@ const AdvertisementBanner = () => {
               transition={{ delay: 0.4, duration: 0.8 }}
               className="text-xl mb-8 opacity-90"
             >
-              Fast, reliable, and guaranteed results.
+              Free Consultation, Free Inspection Visit (Within Klang valley/ Kuala Lumpur/Cyberjaya/Putrajaya), Satisfaction & Commitment Guarantee
             </motion.p>
 
             <motion.div
