@@ -49,7 +49,7 @@ const Footer = () => {
           <div className="flex flex-wrap justify-center gap-6 mt-6">
             <img src="/images/logo/mpma.png" alt="MPMA" className="h-16" />
             <img src="/images/logo/jabatan.png" alt="Jabatan Pertanian" className="h-16" />
-            <img src="/images/logo/best.png" alt="Best Brands" className="h-16" />
+            {/* <img src="/images/logo/best.png" alt="Best Brands" className="h-16" /> */}
             {/* <img src="/images/logo/trust.png" alt="Trusted Malaysia" className="h-16" /> */}
           </div>
         </div>

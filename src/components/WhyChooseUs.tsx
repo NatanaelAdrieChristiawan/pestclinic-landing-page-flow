@@ -1,11 +1,22 @@
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'framer-motion';
-import { useRef } from 'react';
-import { Shield, Award, PhoneCall, Target, TrendingDown } from 'lucide-react';
+import { useRef, useState } from 'react';
+import { Shield, Award, PhoneCall, Target, TrendingDown, X } from 'lucide-react';
+
+const certificateImages = [
+  '/images/certified/certif1.jpg',
+  '/images/certified/certif2.jpg',
+  '/images/certified/certif3.jpg',
+  '/images/certified/certif4.jpg',
+  '/images/certified/certif5.jpg',
+  '/images/certified/certif6.jpg',
+];
 
 const WhyChooseUs = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
+  const [showCertModal, setShowCertModal] = useState(false);
+  const [zoomedImgIdx, setZoomedImgIdx] = useState<number | null>(null);
 
   return (
     <section ref={ref} className="py-16 bg-background">
@@ -61,11 +72,17 @@ const WhyChooseUs = () => {
                 </div>
                 <h4 className="font-bold text-foreground mb-2">Quality Assurance</h4>
                 <p className="text-muted-foreground text-sm">
-                  100% satisfaction guarantee with follow-up services
+                  Commitment Guarantee
                 </p>
               </div>
 
-              <div className="text-center p-6 bg-secondary/50 rounded-2xl hover:bg-[#cedff9] transition-colors duration-300">
+              {/* Certified - with popup */}
+              <button
+                type="button"
+                onClick={() => setShowCertModal(true)}
+                className="text-center p-6 bg-secondary/50 rounded-2xl hover:bg-[#cedff9] transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-[#162957]/40"
+                aria-label="Show Certificates"
+              >
                 <div className="w-16 h-16 bg-[#162957]/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Award className="h-8 w-8 text-[#162957]" />
                 </div>
@@ -73,7 +90,7 @@ const WhyChooseUs = () => {
                 <p className="text-muted-foreground text-sm">
                   Licensed professionals with proper certifications
                 </p>
-              </div>
+              </button>
 
               <div className="text-center p-6 bg-secondary/50 rounded-2xl hover:bg-[#cedff9] transition-colors duration-300">
                 <div className="w-16 h-16 bg-[#162957]/10 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -164,6 +181,88 @@ const WhyChooseUs = () => {
           </motion.div>
         </div>
       </div>
+
+      {/* Certificate Modal */}
+      <AnimatePresence>
+        {showCertModal && (
+          <motion.div
+            className="fixed inset-0 z-[999] flex items-center justify-center bg-black/60"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          >
+            <motion.div
+              initial={{ scale: 0.85, opacity: 0, y: 60 }}
+              animate={{ scale: 1, opacity: 1, y: 0 }}
+              exit={{ scale: 0.85, opacity: 0, y: 60 }}
+              transition={{ type: 'spring', duration: 0.5 }}
+              className="bg-white rounded-2xl shadow-2xl max-w-3xl w-full mx-4 p-6 relative"
+            >
+              <button
+                className="absolute top-3 right-3 text-gray-500 hover:text-red-500 transition-colors"
+                onClick={() => setShowCertModal(false)}
+                aria-label="Close"
+              >
+                <X className="w-7 h-7" />
+              </button>
+              <h3 className="text-xl font-bold text-center mb-6 text-[#162957]">Our Certifications</h3>
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                {certificateImages.map((src, idx) => (
+                  <motion.div
+                    key={src}
+                    initial={{ opacity: 0, y: 30 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.1 * idx }}
+                    className="rounded-lg overflow-hidden border bg-white cursor-pointer"
+                    onClick={() => setZoomedImgIdx(idx)}
+                  >
+                    <img
+                      src={src}
+                      alt={`Certificate ${idx + 1}`}
+                      className="w-full h-32 sm:h-36 md:h-40 object-contain bg-white"
+                    />
+                  </motion.div>
+                ))}
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* Zoomed Certificate Modal */}
+      <AnimatePresence>
+        {zoomedImgIdx !== null && (
+          <motion.div
+            className="fixed inset-0 z-[1000] flex items-center justify-center bg-black/80"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setZoomedImgIdx(null)}
+          >
+            <motion.div
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.8, opacity: 0 }}
+              transition={{ type: 'spring', duration: 0.4 }}
+              className="relative max-w-2xl w-full"
+              onClick={e => e.stopPropagation()}
+            >
+              <button
+                className="absolute -top-10 right-0 text-white hover:text-red-400 transition-colors"
+                onClick={() => setZoomedImgIdx(null)}
+                aria-label="Close"
+              >
+                <X className="h-8 w-8" />
+              </button>
+              <img
+                src={certificateImages[zoomedImgIdx]}
+                alt={`Certificate Zoomed ${zoomedImgIdx + 1}`}
+                className="w-full h-auto max-h-[80vh] object-contain rounded-xl bg-white"
+              />
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   );
 };

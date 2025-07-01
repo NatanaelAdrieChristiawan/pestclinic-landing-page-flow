@@ -108,20 +108,20 @@ const Navbar = () => {
     <div className="w-full relative">
       {/* Navbar */}
       <nav className="bg-[#162957] shadow-lg fixed top-0 left-0 z-40 w-full">
-        <div className="max-w-none px-4 sm:px-6 lg:px-8 2xl:max-w-7xl 2xl:mx-auto relative">
+        <div className="max-w-none px-4 sm:px-6 lg:px-4 2xl:max-w-7xl 2xl:mx-auto relative">
           <div className="flex items-center h-16 lg:h-20 justify-between">
             {/* Logo */}
             <NavLink to="/" className="block flex-shrink-0" onClick={() => window.scrollTo(0,0)}>
               <img
                 src="/images/logo/serval.png"
                 alt="Serval Integrated Pest Management Logo"
-                className="lg:h-20 h-14 w-auto bg-white rounded-lg p-2 drop-shadow-lg"
-                style={{ marginTop: '40px', marginRight: '20px' }}
+                className="lg:h-16 h-12 w-auto bg-white rounded-lg p-2 drop-shadow-lg"
+                style={{ marginTop: '20px', marginRight: '10px' }} // Perkecil margin
               />
             </NavLink>
             {/* Desktop Menu */}
             <div className="hidden lg:flex flex-1 justify-end">
-              <div className="flex items-center space-x-8 2xl:space-x-6">
+              <div className="flex items-center space-x-4 2xl:space-x-6"> {/* Ubah space-x-8 jadi space-x-4 */}
                 {menuItems.map((item, index) => (
                   <div key={item} className="relative">
                     {item === 'PEST CONTROL SERVICES' ? (

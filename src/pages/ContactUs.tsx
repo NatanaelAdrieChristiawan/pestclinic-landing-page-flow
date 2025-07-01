@@ -81,9 +81,12 @@ const Contact = () => {
               </a>
             </div>
             <div>
+            <div>
               <span className="font-semibold">Email :</span> <a href="mailto:OfficialHQ@servalpestmanagement.com" className="text-[#162957] underline">OfficialHQ@servalpestmanagement.com</a>
             </div>
             <div>
+              <span className="font-semibold">Email :</span> <a href="mailto:servalpest88@gmail.com" className="text-[#162957] underline">servalpest88@gmail.com</a>
+            </div>
               <span className="font-semibold">Working hours:</span><br />
               Monday to Saturday,<br />
               8:30am to 6:00pm,<br />

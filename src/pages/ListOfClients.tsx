@@ -157,7 +157,7 @@ const ListOfClients = () => {
 						}}
 						className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4 md:gap-6 justify-items-center mb-12"
 					>
-						{Array.from({ length: 26 }).map((_, i) => (
+						{Array.from({ length: 23 }).map((_, i) => (
 							<motion.div
 								key={i}
 								variants={{

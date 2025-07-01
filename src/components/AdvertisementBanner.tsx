@@ -40,7 +40,6 @@ const AdvertisementBanner = () => {
               transition={{ delay: 0.4, duration: 0.8 }}
               className="text-xl mb-8 opacity-90"
             >
-              24/7 emergency response team ready to tackle your pest problems. 
               Fast, reliable, and guaranteed results.
             </motion.p>
 
@@ -65,10 +64,6 @@ const AdvertisementBanner = () => {
               transition={{ delay: 0.8, duration: 0.8 }}
               className="grid grid-cols-1 sm:grid-cols-3 gap-4"
             >
-              <div className="flex items-center">
-                <Clock className="h-5 w-5 mr-2" />
-                <span className="text-sm">24/7 Available</span>
-              </div>
               <div className="flex items-center">
                 <CheckCircle className="h-5 w-5 mr-2" />
                 <span className="text-sm">Free Inspection</span>
