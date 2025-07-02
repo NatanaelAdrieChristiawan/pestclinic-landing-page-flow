@@ -2,13 +2,12 @@ import React from 'react';
 
 const RunningLogo = () => {
   // Secara dinamis membuat array path logo dari logo1 hingga logo26
-  const logos = Array.from({ length: 26 }, (_, i) => ({
+  const logos = Array.from({ length: 23 }, (_, i) => ({
     id: i + 1,
-    src: `/images/runninglogo/logo${i + 1}.png`,
+    src: `/images/major/major${i + 1}.png`,
     alt: `Client Logo ${i + 1}`,
   }));
 
-  // Duplikasi logo untuk menciptakan efek animasi yang tak terbatas dan mulus
   const extendedLogos = [...logos, ...logos];
 
   return (
