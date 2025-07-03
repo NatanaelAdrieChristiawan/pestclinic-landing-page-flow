@@ -85,9 +85,9 @@ const categories = [
 	{
 		title: 'GROUP',
 		clients: [
-			'MR DIY TRADING SDN BHD',
+			'MR DIY',
 			'MR DOLLAR ',
-			'MR TOY ',
+			'MR TOY',
 
 		],
 	},
