@@ -2,7 +2,7 @@ import React from 'react';
 
 const RunningLogo = () => {
   // Secara dinamis membuat array path logo dari logo1 hingga logo26
-  const logos = Array.from({ length: 23 }, (_, i) => ({
+  const logos = Array.from({ length: 25 }, (_, i) => ({
     id: i + 1,
     src: `/images/major/major${i + 1}.png`,
     alt: `Client Logo ${i + 1}`,
