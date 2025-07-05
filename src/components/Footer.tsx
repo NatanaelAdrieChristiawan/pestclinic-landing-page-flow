@@ -94,15 +94,15 @@ const Footer = () => {
         {/* Brochure */}
         <div className="flex flex-col justify-between">
           <div>
-            <div className="font-semibold mb-2">DISCOVER MORE</div>
-            <a
-              href="/brochure.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block bg-white text-[#18443d] font-semibold text-center py-4 rounded-lg shadow hover:bg-gray-100 transition"
-            >
-              DOWNLOAD BROCHURE
-            </a>
+            {/* QR Code */}
+            <div className="flex flex-col items-center mt-6">
+              <img
+                src="/images/logo/qrcode.jpg"
+                alt="QR Code"
+                className="h-28 w-28 object-contain rounded-md shadow-md bg-white p-2"
+              />
+                <span className="text-base mt-2 text-gray-300 text-center">Scan for more information</span>
+            </div>
           </div>
         </div>
       </div>
